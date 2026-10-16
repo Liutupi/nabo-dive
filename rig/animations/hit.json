@@ -1,0 +1,611 @@
+{
+  "name": "hit",
+  "revision": 4,
+  "fps": 12,
+  "frame_count": 4,
+  "loop": false,
+  "duration_seconds": 0.3333333333333333,
+  "sample_phases": [
+    0,
+    0.3333333333333333,
+    0.6666666666666666,
+    1
+  ],
+  "keyframes": [
+    {
+      "phase": 0,
+      "label": "localized impact / recover to swim0",
+      "rotations": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": 0.16000000000000003,
+        "head": -1.58,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 80.7180351075508,
+        "forearm_hand_near": -32.753753988284956,
+        "upper_arm_far": -100.38005609322704,
+        "forearm_hand_far": 16.474608574954345,
+        "thigh_near": -22.524739,
+        "shin_foot_near": 21.165129,
+        "thigh_far": 31.824808,
+        "shin_foot_far": -15.318017,
+        "cloth_waist_near": -0.96,
+        "cloth_waist_far": -1.36,
+        "cloth_collar": -1.1199999999999999,
+        "shoulder_near": -1.1,
+        "shoulder_far": 0.88,
+        "pelvis": -0.88,
+        "foot_near": -1.3599999999999999,
+        "foot_far": 2.24,
+        "hand_near": 0.0,
+        "hand_far": 0.0,
+        "mouth_bubbles": 0.0
+      },
+      "translations": {
+        "root": [
+          0.0,
+          0.0
+        ],
+        "torso": [
+          0.0,
+          0.0
+        ],
+        "neck": [
+          0.0,
+          -0.3
+        ],
+        "head": [
+          0.0,
+          0.0
+        ],
+        "eyes": [
+          0.0,
+          0.0
+        ],
+        "mouth": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_near": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_near": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_far": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_far": [
+          0.0,
+          0.0
+        ],
+        "thigh_near": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_near": [
+          0.0,
+          0.0
+        ],
+        "thigh_far": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_near": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_collar": [
+          0.0,
+          0.0
+        ],
+        "shoulder_near": [
+          -0.3,
+          -0.8
+        ],
+        "shoulder_far": [
+          0.3,
+          -0.8
+        ],
+        "pelvis": [
+          0.0,
+          0.0
+        ],
+        "foot_near": [
+          0.0,
+          0.0
+        ],
+        "foot_far": [
+          0.0,
+          0.0
+        ],
+        "hand_near": [
+          0.0,
+          0.0
+        ],
+        "hand_far": [
+          0.0,
+          0.0
+        ],
+        "mouth_bubbles": [
+          0.0,
+          0.0
+        ]
+      },
+      "expressions": {
+        "eyes": "cross_eye",
+        "mouth": "gasp_mouth",
+        "mouth_bubbles": "bubbles_small_1"
+      },
+      "front_mix": 0,
+      "relaxed_mix": 0,
+      "facing_angle": 50,
+      "front_rotations": {}
+    },
+    {
+      "phase": 0.3333333333333333,
+      "label": "localized impact / recover to swim0",
+      "rotations": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": 2.5,
+        "head": 7.0,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 40.9689214111512,
+        "forearm_hand_near": 17.53759851310201,
+        "upper_arm_far": -74.25826964805154,
+        "forearm_hand_far": -22.883998370431442,
+        "thigh_near": -22.524739,
+        "shin_foot_near": 21.165129,
+        "thigh_far": 31.824808,
+        "shin_foot_far": -15.318017,
+        "cloth_waist_near": -0.96,
+        "cloth_waist_far": -1.36,
+        "cloth_collar": -1.1199999999999999,
+        "shoulder_near": -5,
+        "shoulder_far": 4,
+        "pelvis": -4,
+        "foot_near": 8.0,
+        "foot_far": -4.0,
+        "hand_near": 0.0,
+        "hand_far": 0.0,
+        "mouth_bubbles": 0.0
+      },
+      "translations": {
+        "root": [
+          0.0,
+          0.0
+        ],
+        "torso": [
+          0.0,
+          0.0
+        ],
+        "neck": [
+          0.0,
+          -0.3
+        ],
+        "head": [
+          0.0,
+          0.0
+        ],
+        "eyes": [
+          0.0,
+          0.0
+        ],
+        "mouth": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_near": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_near": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_far": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_far": [
+          0.0,
+          0.0
+        ],
+        "thigh_near": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_near": [
+          0.0,
+          0.0
+        ],
+        "thigh_far": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_near": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_collar": [
+          0.0,
+          0.0
+        ],
+        "shoulder_near": [
+          -0.3,
+          -0.8
+        ],
+        "shoulder_far": [
+          0.3,
+          -0.8
+        ],
+        "pelvis": [
+          0.0,
+          0.0
+        ],
+        "foot_near": [
+          0.0,
+          0.0
+        ],
+        "foot_far": [
+          0.0,
+          0.0
+        ],
+        "hand_near": [
+          0.0,
+          0.0
+        ],
+        "hand_far": [
+          0.0,
+          0.0
+        ],
+        "mouth_bubbles": [
+          0.0,
+          0.0
+        ]
+      },
+      "expressions": {
+        "eyes": "cross_eye",
+        "mouth": "gasp_mouth",
+        "mouth_bubbles": "bubbles_small_3"
+      },
+      "front_mix": 0,
+      "relaxed_mix": 0,
+      "facing_angle": 50,
+      "front_rotations": {}
+    },
+    {
+      "phase": 0.6666666666666666,
+      "label": "localized impact / recover to swim0",
+      "rotations": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": 0.76,
+        "head": 0.6200000000000001,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 70.27394753353951,
+        "forearm_hand_near": -17.303220605290193,
+        "upper_arm_far": -93.4857931316597,
+        "forearm_hand_far": 5.104183732733077,
+        "thigh_near": -22.524739,
+        "shin_foot_near": 21.165129,
+        "thigh_far": 31.824808,
+        "shin_foot_far": -15.318017,
+        "cloth_waist_near": -0.96,
+        "cloth_waist_far": -1.36,
+        "cloth_collar": -1.1199999999999999,
+        "shoulder_near": -2.1,
+        "shoulder_far": 1.68,
+        "pelvis": -1.68,
+        "foot_near": 1.04,
+        "foot_far": 0.6400000000000001,
+        "hand_near": 0.0,
+        "hand_far": 0.0,
+        "mouth_bubbles": 0.0
+      },
+      "translations": {
+        "root": [
+          0.0,
+          0.0
+        ],
+        "torso": [
+          0.0,
+          0.0
+        ],
+        "neck": [
+          0.0,
+          -0.3
+        ],
+        "head": [
+          0.0,
+          0.0
+        ],
+        "eyes": [
+          0.0,
+          0.0
+        ],
+        "mouth": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_near": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_near": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_far": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_far": [
+          0.0,
+          0.0
+        ],
+        "thigh_near": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_near": [
+          0.0,
+          0.0
+        ],
+        "thigh_far": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_near": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_collar": [
+          0.0,
+          0.0
+        ],
+        "shoulder_near": [
+          -0.3,
+          -0.8
+        ],
+        "shoulder_far": [
+          0.3,
+          -0.8
+        ],
+        "pelvis": [
+          0.0,
+          0.0
+        ],
+        "foot_near": [
+          0.0,
+          0.0
+        ],
+        "foot_far": [
+          0.0,
+          0.0
+        ],
+        "hand_near": [
+          0.0,
+          0.0
+        ],
+        "hand_far": [
+          0.0,
+          0.0
+        ],
+        "mouth_bubbles": [
+          0.0,
+          0.0
+        ]
+      },
+      "expressions": {
+        "eyes": "cross_eye",
+        "mouth": "gasp_mouth",
+        "mouth_bubbles": "bubbles_small_2"
+      },
+      "front_mix": 0,
+      "relaxed_mix": 0,
+      "facing_angle": 50,
+      "front_rotations": {}
+    },
+    {
+      "phase": 1,
+      "label": "exact swim0 recovery / bubbles cleared",
+      "rotations": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": -0.5,
+        "head": -4.0,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 94.352056,
+        "forearm_hand_near": -54.749741,
+        "upper_arm_far": -108.688641,
+        "forearm_hand_far": 30.842529,
+        "thigh_near": -22.524739,
+        "shin_foot_near": 21.165129,
+        "thigh_far": 31.824808,
+        "shin_foot_far": -15.318017,
+        "cloth_waist_near": -0.96,
+        "cloth_waist_far": -1.36,
+        "cloth_collar": -1.1199999999999999,
+        "shoulder_near": 0.0,
+        "shoulder_far": 0.0,
+        "pelvis": 0.0,
+        "foot_near": -4.0,
+        "foot_far": 4.0,
+        "hand_near": 0.0,
+        "hand_far": 0.0,
+        "mouth_bubbles": 0.0
+      },
+      "translations": {
+        "root": [
+          0.0,
+          0.0
+        ],
+        "torso": [
+          0.0,
+          0.0
+        ],
+        "neck": [
+          0.0,
+          -0.3
+        ],
+        "head": [
+          0.0,
+          0.0
+        ],
+        "eyes": [
+          0.0,
+          0.0
+        ],
+        "mouth": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_near": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_near": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_far": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_far": [
+          0.0,
+          0.0
+        ],
+        "thigh_near": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_near": [
+          0.0,
+          0.0
+        ],
+        "thigh_far": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_near": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_collar": [
+          0.0,
+          0.0
+        ],
+        "shoulder_near": [
+          -0.3,
+          -0.8
+        ],
+        "shoulder_far": [
+          0.3,
+          -0.8
+        ],
+        "pelvis": [
+          0.0,
+          0.0
+        ],
+        "foot_near": [
+          0.0,
+          0.0
+        ],
+        "foot_far": [
+          0.0,
+          0.0
+        ],
+        "hand_near": [
+          0.0,
+          0.0
+        ],
+        "hand_far": [
+          0.0,
+          0.0
+        ],
+        "mouth_bubbles": [
+          0.0,
+          0.0
+        ]
+      },
+      "expressions": {},
+      "front_mix": 0,
+      "relaxed_mix": 0,
+      "facing_angle": 50,
+      "front_rotations": {}
+    }
+  ],
+  "interpolation": "clamped eased joint curves; discrete replaceable expression states",
+  "secondary": {
+    "mode": "baked cloth follow in shared curves"
+  },
+  "skin_invariant": true,
+  "events": {},
+  "event_index_base": 1,
+  "transition": {
+    "to": {
+      "animation": "swim",
+      "phase": 0
+    },
+    "last_exported_frame_matches": true,
+    "from_note": "Impact is a deliberate local recoil; arbitrary swim phase still requires runtime blend."
+  },
+  "notes": {
+    "legacy_change": "outline RGB only; source timelines and original24 bone definitions preserved",
+    "fps": {
+      "gulp": 12,
+      "hit": 12,
+      "lowair": 16,
+      "out": 12,
+      "turn": 24
+    },
+    "user_acceptance": "pending for all animation versions",
+    "optional_not_made": [
+      "nearmiss",
+      "record"
+    ],
+    "projection": "Front yaw / supine body performance uses authored SVG view variants with projected joint coordinates, not an engine tilt/squash effect."
+  }
+}

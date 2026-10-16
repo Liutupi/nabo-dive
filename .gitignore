@@ -1,0 +1,9 @@
+# Codex delivery archives and per-round snapshots stay local (hundreds of MB, duplicates)
+history/
+preview/
+*.zip
+# macOS / editor noise (the source volume writes AppleDouble files)
+._*
+.DS_Store
+__pycache__/
+*.pyc

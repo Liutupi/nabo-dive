@@ -1,0 +1,1849 @@
+{
+  "revision": 4,
+  "skin": "a",
+  "animation": "hit",
+  "canvas": [
+    256,
+    256
+  ],
+  "anchor": [
+    128,
+    128
+  ],
+  "fps": 12,
+  "frame_count": 4,
+  "loop": false,
+  "angle": 50,
+  "scale": 1,
+  "mirror": false,
+  "shared_skeleton_sha256": "ba83133efcc890cc6614cb8ec360cff9a54836108c6867f56fd3024077700e33",
+  "timeline_sha256": "bd46bc34ab0805b431870a2a594a58f908dbd0dd10e73a0f1fae98b7f0c2c06f",
+  "frames": [
+    {
+      "phase": 0,
+      "anchor_world": [
+        128.0,
+        128.00000000000003
+      ],
+      "visible_bbox": [
+        14,
+        35,
+        208,
+        241
+      ],
+      "rgb_colors": 19,
+      "alpha_values": [
+        0,
+        17,
+        34,
+        51,
+        68,
+        85,
+        102,
+        119,
+        136,
+        153,
+        170,
+        187,
+        204,
+        221,
+        238,
+        255
+      ],
+      "joints_world": {
+        "root": [
+          128.0,
+          128.00000000000003
+        ],
+        "torso": [
+          128.0,
+          128.00000000000003
+        ],
+        "neck": [
+          116.23698674273632,
+          142.01861330907732
+        ],
+        "head": [
+          112.36744094122062,
+          146.6040920507108
+        ],
+        "eyes": [
+          97.40087878287585,
+          165.36580884743282
+        ],
+        "mouth": [
+          112.3763599576858,
+          153.00721007641866
+        ],
+        "upper_arm_near": [
+          139.30300328287922,
+          147.66652274265132
+        ],
+        "forearm_hand_near": [
+          133.4211641852136,
+          202.52783852006564
+        ],
+        "upper_arm_far": [
+          106.6695100060108,
+          120.28377057000475
+        ],
+        "forearm_hand_far": [
+          44.53056898321651,
+          134.7472420953921
+        ],
+        "thigh_near": [
+          158.8394113258372,
+          106.68295780430765
+        ],
+        "shin_foot_near": [
+          174.99188269048966,
+          87.49708621049984
+        ],
+        "thigh_far": [
+          143.3228870777468,
+          94.06402459827066
+        ],
+        "shin_foot_far": [
+          155.4051545351855,
+          70.84724590080884
+        ],
+        "cloth_waist_near": [
+          158.50127782799166,
+          119.6530214532643
+        ],
+        "cloth_waist_far": [
+          132.4557667619464,
+          97.79824272392199
+        ],
+        "cloth_collar": [
+          106.49774870761992,
+          125.62235634307004
+        ],
+        "shoulder_near": [
+          139.30300328287922,
+          147.66652274265132
+        ],
+        "shoulder_far": [
+          106.66951000601077,
+          120.28377057000475
+        ],
+        "pelvis": [
+          147.92641590028273,
+          104.25262226331171
+        ],
+        "foot_near": [
+          183.6426388270986,
+          71.42959050441914
+        ],
+        "foot_far": [
+          172.78107196410014,
+          62.59633725366331
+        ],
+        "hand_near": [
+          72.63545117990458,
+          219.07767520917548
+        ],
+        "hand_far": [
+          48.498198481260516,
+          200.25951511477564
+        ],
+        "mouth_bubbles": [
+          112.3763599576858,
+          153.00721007641866
+        ]
+      },
+      "rotations_degrees": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": 0.16000000000000003,
+        "head": -1.58,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 80.7180351075508,
+        "forearm_hand_near": -32.753753988284956,
+        "upper_arm_far": -100.38005609322704,
+        "forearm_hand_far": 16.474608574954345,
+        "thigh_near": -22.524739,
+        "shin_foot_near": 21.165129,
+        "thigh_far": 31.824808,
+        "shin_foot_far": -15.318017,
+        "cloth_waist_near": -0.96,
+        "cloth_waist_far": -1.36,
+        "cloth_collar": -1.1199999999999999,
+        "shoulder_near": -1.1,
+        "shoulder_far": 0.88,
+        "pelvis": -0.88,
+        "foot_near": -1.3599999999999999,
+        "foot_far": 2.24,
+        "hand_near": 0.0,
+        "hand_far": 0.0,
+        "mouth_bubbles": 0.0
+      },
+      "projected_rotations_degrees": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": 0.16000000000000003,
+        "head": -1.58,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 80.7180351075508,
+        "forearm_hand_near": -32.753753988284956,
+        "upper_arm_far": -100.38005609322704,
+        "forearm_hand_far": 16.474608574954345,
+        "thigh_near": -22.524739,
+        "shin_foot_near": 21.165129,
+        "thigh_far": 31.824808,
+        "shin_foot_far": -15.318017,
+        "cloth_waist_near": -0.96,
+        "cloth_waist_far": -1.36,
+        "cloth_collar": -1.1199999999999999,
+        "shoulder_near": -1.1,
+        "shoulder_far": 0.88,
+        "pelvis": -0.88,
+        "foot_near": -1.3599999999999999,
+        "foot_far": 2.24,
+        "hand_near": 0.0,
+        "hand_far": 0.0,
+        "mouth_bubbles": 0.0
+      },
+      "projected_joint_pivots": {
+        "root": [
+          128,
+          128
+        ],
+        "torso": [
+          128,
+          128
+        ],
+        "neck": [
+          128,
+          110
+        ],
+        "head": [
+          128,
+          104
+        ],
+        "eyes": [
+          128,
+          80
+        ],
+        "mouth": [
+          124,
+          99
+        ],
+        "upper_arm_near": [
+          107,
+          121
+        ],
+        "forearm_hand_near": [
+          56.4,
+          143.0
+        ],
+        "upper_arm_far": [
+          149,
+          121
+        ],
+        "forearm_hand_far": [
+          193.0,
+          167.2
+        ],
+        "thigh_near": [
+          118,
+          164
+        ],
+        "shin_foot_near": [
+          108,
+          187
+        ],
+        "thigh_far": [
+          138,
+          164
+        ],
+        "shin_foot_far": [
+          156,
+          183
+        ],
+        "cloth_waist_near": [
+          110,
+          154
+        ],
+        "cloth_waist_far": [
+          144,
+          154
+        ],
+        "cloth_collar": [
+          146,
+          116
+        ],
+        "shoulder_near": [
+          107,
+          121
+        ],
+        "shoulder_far": [
+          149,
+          121
+        ],
+        "pelvis": [
+          128,
+          159
+        ],
+        "foot_near": [
+          111,
+          205
+        ],
+        "foot_far": [
+          153,
+          202
+        ],
+        "hand_near": [
+          43.199999999999996,
+          81.39999999999999
+        ],
+        "hand_far": [
+          234.8,
+          116.6
+        ],
+        "mouth_bubbles": [
+          124,
+          99
+        ]
+      },
+      "translations_pixels": {
+        "root": [
+          0.0,
+          0.0
+        ],
+        "torso": [
+          0.0,
+          0.0
+        ],
+        "neck": [
+          0.0,
+          -0.3
+        ],
+        "head": [
+          0.0,
+          0.0
+        ],
+        "eyes": [
+          0.0,
+          0.0
+        ],
+        "mouth": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_near": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_near": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_far": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_far": [
+          0.0,
+          0.0
+        ],
+        "thigh_near": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_near": [
+          0.0,
+          0.0
+        ],
+        "thigh_far": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_near": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_collar": [
+          0.0,
+          0.0
+        ],
+        "shoulder_near": [
+          -0.3,
+          -0.8
+        ],
+        "shoulder_far": [
+          0.3,
+          -0.8
+        ],
+        "pelvis": [
+          0.0,
+          0.0
+        ],
+        "foot_near": [
+          0.0,
+          0.0
+        ],
+        "foot_far": [
+          0.0,
+          0.0
+        ],
+        "hand_near": [
+          0.0,
+          0.0
+        ],
+        "hand_far": [
+          0.0,
+          0.0
+        ],
+        "mouth_bubbles": [
+          0.0,
+          0.0
+        ]
+      },
+      "expressions": {
+        "eyes": "cross_eye",
+        "mouth": "gasp_mouth",
+        "mouth_bubbles": "bubbles_small_1"
+      },
+      "view_projection": {
+        "front_mix": 0,
+        "relaxed_mix": 0,
+        "facing_angle": 50
+      },
+      "landmarks_world": {
+        "chest": [
+          128.0,
+          128.00000000000003
+        ],
+        "head_center": [
+          88.67038419050806,
+          176.3101436455207
+        ],
+        "neck_head_join": [
+          112.36744094122062,
+          146.6040920507108
+        ],
+        "wrist_near": [
+          72.63545117990458,
+          219.07767520917548
+        ],
+        "wrist_far": [
+          48.498198481260516,
+          200.25951511477564
+        ],
+        "ankle_near": [
+          183.6426388270986,
+          71.42959050441914
+        ],
+        "ankle_far": [
+          172.78107196410014,
+          62.59633725366331
+        ]
+      },
+      "file": "01.png"
+    },
+    {
+      "phase": 0.3333333333333333,
+      "anchor_world": [
+        128.0,
+        128.00000000000003
+      ],
+      "visible_bbox": [
+        15,
+        33,
+        209,
+        236
+      ],
+      "rgb_colors": 19,
+      "alpha_values": [
+        0,
+        17,
+        34,
+        51,
+        68,
+        85,
+        102,
+        119,
+        136,
+        153,
+        170,
+        187,
+        204,
+        221,
+        238,
+        255
+      ],
+      "joints_world": {
+        "root": [
+          128.0,
+          128.00000000000003
+        ],
+        "torso": [
+          128.0,
+          128.00000000000003
+        ],
+        "neck": [
+          116.23698674273632,
+          142.01861330907732
+        ],
+        "head": [
+          112.18344549704236,
+          146.44227732993807
+        ],
+        "eyes": [
+          93.93370232264161,
+          162.02903048986246
+        ],
+        "mouth": [
+          110.97920786236293,
+          152.7311414339891
+        ],
+        "upper_arm_near": [
+          139.30300328287922,
+          147.66652274265135
+        ],
+        "forearm_hand_near": [
+          172.91449666107923,
+          191.42297955632876
+        ],
+        "upper_arm_far": [
+          106.66951000601077,
+          120.28377057000478
+        ],
+        "forearm_hand_far": [
+          45.38382976178406,
+          102.54947055555847
+        ],
+        "thigh_near": [
+          158.95551210549456,
+          106.08538981436166
+        ],
+        "shin_foot_near": [
+          174.03980475459866,
+          86.04882036557166
+        ],
+        "thigh_far": [
+          142.77517221799562,
+          94.32968476851227
+        ],
+        "shin_foot_far": [
+          153.575902440016,
+          70.48971357156793
+        ],
+        "cloth_waist_near": [
+          158.50127782799166,
+          119.6530214532643
+        ],
+        "cloth_waist_far": [
+          132.4557667619464,
+          97.79824272392199
+        ],
+        "cloth_collar": [
+          106.49774870761992,
+          125.62235634307004
+        ],
+        "shoulder_near": [
+          139.30300328287922,
+          147.66652274265135
+        ],
+        "shoulder_far": [
+          106.66951000601077,
+          120.28377057000478
+        ],
+        "pelvis": [
+          147.92641590028273,
+          104.25262226331168
+        ],
+        "foot_near": [
+          181.80322670671765,
+          69.53430312789993
+        ],
+        "foot_far": [
+          170.47698889561372,
+          61.30530958326199
+        ],
+        "hand_near": [
+          110.62248141183943,
+          200.83068045444816
+        ],
+        "hand_far": [
+          60.79737612583736,
+          166.3461992215581
+        ],
+        "mouth_bubbles": [
+          110.97920786236293,
+          152.7311414339891
+        ]
+      },
+      "rotations_degrees": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": 2.5,
+        "head": 7.0,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 40.9689214111512,
+        "forearm_hand_near": 17.53759851310201,
+        "upper_arm_far": -74.25826964805154,
+        "forearm_hand_far": -22.883998370431442,
+        "thigh_near": -22.524739,
+        "shin_foot_near": 21.165129,
+        "thigh_far": 31.824808,
+        "shin_foot_far": -15.318017,
+        "cloth_waist_near": -0.96,
+        "cloth_waist_far": -1.36,
+        "cloth_collar": -1.1199999999999999,
+        "shoulder_near": -5.0,
+        "shoulder_far": 4.0,
+        "pelvis": -4.0,
+        "foot_near": 8.0,
+        "foot_far": -4.0,
+        "hand_near": 0.0,
+        "hand_far": 0.0,
+        "mouth_bubbles": 0.0
+      },
+      "projected_rotations_degrees": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": 2.5,
+        "head": 7.0,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 40.9689214111512,
+        "forearm_hand_near": 17.53759851310201,
+        "upper_arm_far": -74.25826964805154,
+        "forearm_hand_far": -22.883998370431442,
+        "thigh_near": -22.524739,
+        "shin_foot_near": 21.165129,
+        "thigh_far": 31.824808,
+        "shin_foot_far": -15.318017,
+        "cloth_waist_near": -0.96,
+        "cloth_waist_far": -1.36,
+        "cloth_collar": -1.1199999999999999,
+        "shoulder_near": -5.0,
+        "shoulder_far": 4.0,
+        "pelvis": -4.0,
+        "foot_near": 8.0,
+        "foot_far": -4.0,
+        "hand_near": 0.0,
+        "hand_far": 0.0,
+        "mouth_bubbles": 0.0
+      },
+      "projected_joint_pivots": {
+        "root": [
+          128,
+          128
+        ],
+        "torso": [
+          128,
+          128
+        ],
+        "neck": [
+          128,
+          110
+        ],
+        "head": [
+          128,
+          104
+        ],
+        "eyes": [
+          128,
+          80
+        ],
+        "mouth": [
+          124,
+          99
+        ],
+        "upper_arm_near": [
+          107,
+          121
+        ],
+        "forearm_hand_near": [
+          56.4,
+          143.0
+        ],
+        "upper_arm_far": [
+          149,
+          121
+        ],
+        "forearm_hand_far": [
+          193.0,
+          167.2
+        ],
+        "thigh_near": [
+          118,
+          164
+        ],
+        "shin_foot_near": [
+          108,
+          187
+        ],
+        "thigh_far": [
+          138,
+          164
+        ],
+        "shin_foot_far": [
+          156,
+          183
+        ],
+        "cloth_waist_near": [
+          110,
+          154
+        ],
+        "cloth_waist_far": [
+          144,
+          154
+        ],
+        "cloth_collar": [
+          146,
+          116
+        ],
+        "shoulder_near": [
+          107,
+          121
+        ],
+        "shoulder_far": [
+          149,
+          121
+        ],
+        "pelvis": [
+          128,
+          159
+        ],
+        "foot_near": [
+          111,
+          205
+        ],
+        "foot_far": [
+          153,
+          202
+        ],
+        "hand_near": [
+          43.199999999999996,
+          81.39999999999999
+        ],
+        "hand_far": [
+          234.8,
+          116.6
+        ],
+        "mouth_bubbles": [
+          124,
+          99
+        ]
+      },
+      "translations_pixels": {
+        "root": [
+          0.0,
+          0.0
+        ],
+        "torso": [
+          0.0,
+          0.0
+        ],
+        "neck": [
+          0.0,
+          -0.3
+        ],
+        "head": [
+          0.0,
+          0.0
+        ],
+        "eyes": [
+          0.0,
+          0.0
+        ],
+        "mouth": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_near": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_near": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_far": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_far": [
+          0.0,
+          0.0
+        ],
+        "thigh_near": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_near": [
+          0.0,
+          0.0
+        ],
+        "thigh_far": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_near": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_collar": [
+          0.0,
+          0.0
+        ],
+        "shoulder_near": [
+          -0.3,
+          -0.8
+        ],
+        "shoulder_far": [
+          0.3,
+          -0.8
+        ],
+        "pelvis": [
+          0.0,
+          0.0
+        ],
+        "foot_near": [
+          0.0,
+          0.0
+        ],
+        "foot_far": [
+          0.0,
+          0.0
+        ],
+        "hand_near": [
+          0.0,
+          0.0
+        ],
+        "hand_far": [
+          0.0,
+          0.0
+        ],
+        "mouth_bubbles": [
+          0.0,
+          0.0
+        ]
+      },
+      "expressions": {
+        "eyes": "cross_eye",
+        "mouth": "gasp_mouth",
+        "mouth_bubbles": "bubbles_small_3"
+      },
+      "view_projection": {
+        "front_mix": 0.0,
+        "relaxed_mix": 0.0,
+        "facing_angle": 50.0
+      },
+      "landmarks_world": {
+        "chest": [
+          128.0,
+          128.00000000000003
+        ],
+        "head_center": [
+          83.28801880424118,
+          171.12130316648503
+        ],
+        "neck_head_join": [
+          112.18344549704236,
+          146.44227732993807
+        ],
+        "wrist_near": [
+          110.62248141183943,
+          200.83068045444816
+        ],
+        "wrist_far": [
+          60.79737612583736,
+          166.3461992215581
+        ],
+        "ankle_near": [
+          181.80322670671765,
+          69.53430312789993
+        ],
+        "ankle_far": [
+          170.47698889561372,
+          61.30530958326199
+        ]
+      },
+      "file": "02.png"
+    },
+    {
+      "phase": 0.6666666666666666,
+      "anchor_world": [
+        128.0,
+        128.00000000000003
+      ],
+      "visible_bbox": [
+        12,
+        34,
+        207,
+        240
+      ],
+      "rgb_colors": 19,
+      "alpha_values": [
+        0,
+        17,
+        34,
+        51,
+        68,
+        85,
+        102,
+        119,
+        136,
+        153,
+        170,
+        187,
+        204,
+        221,
+        238,
+        255
+      ],
+      "joints_world": {
+        "root": [
+          128.0,
+          128.00000000000003
+        ],
+        "torso": [
+          128.0,
+          128.00000000000003
+        ],
+        "neck": [
+          116.23698674273632,
+          142.01861330907735
+        ],
+        "head": [
+          112.31963496742009,
+          146.56331957774057
+        ],
+        "eyes": [
+          96.4544352822729,
+          164.57152434530155
+        ],
+        "mouth": [
+          112.01575249427458,
+          152.95922885184032
+        ],
+        "upper_arm_near": [
+          139.30300328287922,
+          147.66652274265135
+        ],
+        "forearm_hand_near": [
+          144.42322228161441,
+          202.6041542660888
+        ],
+        "upper_arm_far": [
+          106.66951000601077,
+          120.28377057000475
+        ],
+        "forearm_hand_far": [
+          43.15355985713899,
+          126.29742808320157
+        ],
+        "thigh_near": [
+          158.8722803539046,
+          106.53035169477124
+        ],
+        "shin_foot_near": [
+          174.75530064125223,
+          87.12082654468827
+        ],
+        "thigh_far": [
+          143.18108077327716,
+          94.12929304153855
+        ],
+        "shin_foot_far": [
+          154.9380136486576,
+          70.7460826254345
+        ],
+        "cloth_waist_near": [
+          158.50127782799166,
+          119.6530214532643
+        ],
+        "cloth_waist_far": [
+          132.4557667619464,
+          97.79824272392199
+        ],
+        "cloth_collar": [
+          106.49774870761992,
+          125.62235634307004
+        ],
+        "shoulder_near": [
+          139.30300328287922,
+          147.66652274265135
+        ],
+        "shoulder_far": [
+          106.66951000601077,
+          120.28377057000475
+        ],
+        "pelvis": [
+          147.92641590028273,
+          104.25262226331174
+        ],
+        "foot_near": [
+          183.18087626418975,
+          70.9341136164202
+        ],
+        "foot_far": [
+          172.19703666831333,
+          62.25337255108289
+        ],
+        "hand_near": [
+          82.62974205435673,
+          214.8665276661902
+        ],
+        "hand_far": [
+          51.3134835078678,
+          191.42050883046258
+        ],
+        "mouth_bubbles": [
+          112.01575249427458,
+          152.95922885184032
+        ]
+      },
+      "rotations_degrees": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": 0.76,
+        "head": 0.6200000000000001,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 70.27394753353951,
+        "forearm_hand_near": -17.303220605290193,
+        "upper_arm_far": -93.4857931316597,
+        "forearm_hand_far": 5.104183732733077,
+        "thigh_near": -22.524739,
+        "shin_foot_near": 21.165129,
+        "thigh_far": 31.824808,
+        "shin_foot_far": -15.318017,
+        "cloth_waist_near": -0.96,
+        "cloth_waist_far": -1.36,
+        "cloth_collar": -1.1199999999999999,
+        "shoulder_near": -2.1,
+        "shoulder_far": 1.68,
+        "pelvis": -1.68,
+        "foot_near": 1.04,
+        "foot_far": 0.6400000000000001,
+        "hand_near": 0.0,
+        "hand_far": 0.0,
+        "mouth_bubbles": 0.0
+      },
+      "projected_rotations_degrees": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": 0.76,
+        "head": 0.6200000000000001,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 70.27394753353951,
+        "forearm_hand_near": -17.303220605290193,
+        "upper_arm_far": -93.4857931316597,
+        "forearm_hand_far": 5.104183732733077,
+        "thigh_near": -22.524739,
+        "shin_foot_near": 21.165129,
+        "thigh_far": 31.824808,
+        "shin_foot_far": -15.318017,
+        "cloth_waist_near": -0.96,
+        "cloth_waist_far": -1.36,
+        "cloth_collar": -1.1199999999999999,
+        "shoulder_near": -2.1,
+        "shoulder_far": 1.68,
+        "pelvis": -1.68,
+        "foot_near": 1.04,
+        "foot_far": 0.6400000000000001,
+        "hand_near": 0.0,
+        "hand_far": 0.0,
+        "mouth_bubbles": 0.0
+      },
+      "projected_joint_pivots": {
+        "root": [
+          128,
+          128
+        ],
+        "torso": [
+          128,
+          128
+        ],
+        "neck": [
+          128,
+          110
+        ],
+        "head": [
+          128,
+          104
+        ],
+        "eyes": [
+          128,
+          80
+        ],
+        "mouth": [
+          124,
+          99
+        ],
+        "upper_arm_near": [
+          107,
+          121
+        ],
+        "forearm_hand_near": [
+          56.4,
+          143.0
+        ],
+        "upper_arm_far": [
+          149,
+          121
+        ],
+        "forearm_hand_far": [
+          193.0,
+          167.2
+        ],
+        "thigh_near": [
+          118,
+          164
+        ],
+        "shin_foot_near": [
+          108,
+          187
+        ],
+        "thigh_far": [
+          138,
+          164
+        ],
+        "shin_foot_far": [
+          156,
+          183
+        ],
+        "cloth_waist_near": [
+          110,
+          154
+        ],
+        "cloth_waist_far": [
+          144,
+          154
+        ],
+        "cloth_collar": [
+          146,
+          116
+        ],
+        "shoulder_near": [
+          107,
+          121
+        ],
+        "shoulder_far": [
+          149,
+          121
+        ],
+        "pelvis": [
+          128,
+          159
+        ],
+        "foot_near": [
+          111,
+          205
+        ],
+        "foot_far": [
+          153,
+          202
+        ],
+        "hand_near": [
+          43.199999999999996,
+          81.39999999999999
+        ],
+        "hand_far": [
+          234.8,
+          116.6
+        ],
+        "mouth_bubbles": [
+          124,
+          99
+        ]
+      },
+      "translations_pixels": {
+        "root": [
+          0.0,
+          0.0
+        ],
+        "torso": [
+          0.0,
+          0.0
+        ],
+        "neck": [
+          0.0,
+          -0.3
+        ],
+        "head": [
+          0.0,
+          0.0
+        ],
+        "eyes": [
+          0.0,
+          0.0
+        ],
+        "mouth": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_near": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_near": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_far": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_far": [
+          0.0,
+          0.0
+        ],
+        "thigh_near": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_near": [
+          0.0,
+          0.0
+        ],
+        "thigh_far": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_near": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_collar": [
+          0.0,
+          0.0
+        ],
+        "shoulder_near": [
+          -0.3,
+          -0.8
+        ],
+        "shoulder_far": [
+          0.3,
+          -0.8
+        ],
+        "pelvis": [
+          0.0,
+          0.0
+        ],
+        "foot_near": [
+          0.0,
+          0.0
+        ],
+        "foot_far": [
+          0.0,
+          0.0
+        ],
+        "hand_near": [
+          0.0,
+          0.0
+        ],
+        "hand_far": [
+          0.0,
+          0.0
+        ],
+        "mouth_bubbles": [
+          0.0,
+          0.0
+        ]
+      },
+      "expressions": {
+        "eyes": "cross_eye",
+        "mouth": "gasp_mouth",
+        "mouth_bubbles": "bubbles_small_2"
+      },
+      "view_projection": {
+        "front_mix": 0.0,
+        "relaxed_mix": 0.0,
+        "facing_angle": 50.0
+      },
+      "landmarks_world": {
+        "chest": [
+          128.0,
+          128.00000000000003
+        ],
+        "head_center": [
+          87.19973546593704,
+          175.07631045971212
+        ],
+        "neck_head_join": [
+          112.31963496742009,
+          146.56331957774057
+        ],
+        "wrist_near": [
+          82.62974205435673,
+          214.8665276661902
+        ],
+        "wrist_far": [
+          51.3134835078678,
+          191.42050883046258
+        ],
+        "ankle_near": [
+          183.18087626418975,
+          70.9341136164202
+        ],
+        "ankle_far": [
+          172.19703666831333,
+          62.25337255108289
+        ]
+      },
+      "file": "03.png"
+    },
+    {
+      "phase": 1,
+      "anchor_world": [
+        128.0,
+        128.00000000000003
+      ],
+      "visible_bbox": [
+        18,
+        35,
+        208,
+        242
+      ],
+      "rgb_colors": 19,
+      "alpha_values": [
+        0,
+        17,
+        34,
+        51,
+        68,
+        85,
+        102,
+        119,
+        136,
+        153,
+        170,
+        187,
+        204,
+        221,
+        238,
+        255
+      ],
+      "joints_world": {
+        "root": [
+          128.0,
+          128.00000000000003
+        ],
+        "torso": [
+          128.0,
+          128.00000000000003
+        ],
+        "neck": [
+          116.23698674273633,
+          142.01861330907732
+        ],
+        "head": [
+          112.42051742106975,
+          146.64836080940364
+        ],
+        "eyes": [
+          98.4836464840072,
+          166.1871332499553
+        ],
+        "mouth": [
+          112.77346471594034,
+          153.04175022402902
+        ],
+        "upper_arm_near": [
+          139.30300328287922,
+          147.66652274265132
+        ],
+        "forearm_hand_near": [
+          119.66157587591294,
+          199.22788743964975
+        ],
+        "upper_arm_far": [
+          106.66951000601077,
+          120.28377057000478
+        ],
+        "forearm_hand_far": [
+          47.637522193498256,
+          144.4842750048998
+        ],
+        "thigh_near": [
+          158.8007983799052,
+          106.85027614458221
+        ],
+        "shin_foot_near": [
+          175.24602688092682,
+          87.91474183606095
+        ],
+        "thigh_far": [
+          143.47990951752564,
+          93.99452395085143
+        ],
+        "shin_foot_far": [
+          155.91732202842832,
+          70.96604657969988
+        ],
+        "cloth_waist_near": [
+          158.50127782799166,
+          119.6530214532643
+        ],
+        "cloth_waist_far": [
+          132.4557667619464,
+          97.79824272392199
+        ],
+        "cloth_collar": [
+          106.49774870761992,
+          125.62235634307004
+        ],
+        "shoulder_near": [
+          139.30300328287922,
+          147.66652274265132
+        ],
+        "shoulder_far": [
+          106.66951000601077,
+          120.28377057000478
+        ],
+        "pelvis": [
+          147.92641590028273,
+          104.25262226331171
+        ],
+        "foot_near": [
+          184.14253201544523,
+          71.98200207193099
+        ],
+        "foot_far": [
+          173.41790992253158,
+          62.98297553149001
+        ],
+        "hand_near": [
+          61.45545216708348,
+          223.32865843960826
+        ],
+        "hand_far": [
+          45.67493661967353,
+          210.0872342206655
+        ],
+        "mouth_bubbles": [
+          112.77346471594034,
+          153.04175022402902
+        ]
+      },
+      "rotations_degrees": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": -0.5,
+        "head": -4.0,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 94.352056,
+        "forearm_hand_near": -54.749741,
+        "upper_arm_far": -108.688641,
+        "forearm_hand_far": 30.842529,
+        "thigh_near": -22.524739,
+        "shin_foot_near": 21.165129,
+        "thigh_far": 31.824808,
+        "shin_foot_far": -15.318017,
+        "cloth_waist_near": -0.96,
+        "cloth_waist_far": -1.36,
+        "cloth_collar": -1.1199999999999999,
+        "shoulder_near": 0.0,
+        "shoulder_far": 0.0,
+        "pelvis": 0.0,
+        "foot_near": -4.0,
+        "foot_far": 4.0,
+        "hand_near": 0.0,
+        "hand_far": 0.0,
+        "mouth_bubbles": 0.0
+      },
+      "projected_rotations_degrees": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": -0.5,
+        "head": -4.0,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 94.352056,
+        "forearm_hand_near": -54.749741,
+        "upper_arm_far": -108.688641,
+        "forearm_hand_far": 30.842529,
+        "thigh_near": -22.524739,
+        "shin_foot_near": 21.165129,
+        "thigh_far": 31.824808,
+        "shin_foot_far": -15.318017,
+        "cloth_waist_near": -0.96,
+        "cloth_waist_far": -1.36,
+        "cloth_collar": -1.1199999999999999,
+        "shoulder_near": 0.0,
+        "shoulder_far": 0.0,
+        "pelvis": 0.0,
+        "foot_near": -4.0,
+        "foot_far": 4.0,
+        "hand_near": 0.0,
+        "hand_far": 0.0,
+        "mouth_bubbles": 0.0
+      },
+      "projected_joint_pivots": {
+        "root": [
+          128,
+          128
+        ],
+        "torso": [
+          128,
+          128
+        ],
+        "neck": [
+          128,
+          110
+        ],
+        "head": [
+          128,
+          104
+        ],
+        "eyes": [
+          128,
+          80
+        ],
+        "mouth": [
+          124,
+          99
+        ],
+        "upper_arm_near": [
+          107,
+          121
+        ],
+        "forearm_hand_near": [
+          56.4,
+          143.0
+        ],
+        "upper_arm_far": [
+          149,
+          121
+        ],
+        "forearm_hand_far": [
+          193.0,
+          167.2
+        ],
+        "thigh_near": [
+          118,
+          164
+        ],
+        "shin_foot_near": [
+          108,
+          187
+        ],
+        "thigh_far": [
+          138,
+          164
+        ],
+        "shin_foot_far": [
+          156,
+          183
+        ],
+        "cloth_waist_near": [
+          110,
+          154
+        ],
+        "cloth_waist_far": [
+          144,
+          154
+        ],
+        "cloth_collar": [
+          146,
+          116
+        ],
+        "shoulder_near": [
+          107,
+          121
+        ],
+        "shoulder_far": [
+          149,
+          121
+        ],
+        "pelvis": [
+          128,
+          159
+        ],
+        "foot_near": [
+          111,
+          205
+        ],
+        "foot_far": [
+          153,
+          202
+        ],
+        "hand_near": [
+          43.199999999999996,
+          81.39999999999999
+        ],
+        "hand_far": [
+          234.8,
+          116.6
+        ],
+        "mouth_bubbles": [
+          124,
+          99
+        ]
+      },
+      "translations_pixels": {
+        "root": [
+          0.0,
+          0.0
+        ],
+        "torso": [
+          0.0,
+          0.0
+        ],
+        "neck": [
+          0.0,
+          -0.3
+        ],
+        "head": [
+          0.0,
+          0.0
+        ],
+        "eyes": [
+          0.0,
+          0.0
+        ],
+        "mouth": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_near": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_near": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_far": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_far": [
+          0.0,
+          0.0
+        ],
+        "thigh_near": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_near": [
+          0.0,
+          0.0
+        ],
+        "thigh_far": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_near": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_collar": [
+          0.0,
+          0.0
+        ],
+        "shoulder_near": [
+          -0.3,
+          -0.8
+        ],
+        "shoulder_far": [
+          0.3,
+          -0.8
+        ],
+        "pelvis": [
+          0.0,
+          0.0
+        ],
+        "foot_near": [
+          0.0,
+          0.0
+        ],
+        "foot_far": [
+          0.0,
+          0.0
+        ],
+        "hand_near": [
+          0.0,
+          0.0
+        ],
+        "hand_far": [
+          0.0,
+          0.0
+        ],
+        "mouth_bubbles": [
+          0.0,
+          0.0
+        ]
+      },
+      "expressions": {},
+      "view_projection": {
+        "front_mix": 0,
+        "relaxed_mix": 0,
+        "facing_angle": 50
+      },
+      "landmarks_world": {
+        "chest": [
+          128.0,
+          128.00000000000003
+        ],
+        "head_center": [
+          90.35380510405403,
+          177.58475050694378
+        ],
+        "neck_head_join": [
+          112.42051742106975,
+          146.64836080940364
+        ],
+        "wrist_near": [
+          61.45545216708348,
+          223.32865843960826
+        ],
+        "wrist_far": [
+          45.67493661967353,
+          210.0872342206655
+        ],
+        "ankle_near": [
+          184.14253201544523,
+          71.98200207193099
+        ],
+        "ankle_far": [
+          173.41790992253158,
+          62.98297553149001
+        ]
+      },
+      "file": "04.png"
+    }
+  ],
+  "preview": {
+    "scale_to_actual": 0.25779258710765557,
+    "source_union_bbox": [
+      10,
+      26,
+      223,
+      255
+    ],
+    "actual_character_heights": [
+      53,
+      53,
+      53,
+      53
+    ],
+    "actual_frame_canvas": [
+      96,
+      96
+    ],
+    "actual_anchor": [
+      48,
+      48
+    ],
+    "actual_frames_dir": "preview/a/hit_actual_frames",
+    "actual_character_bboxes": [
+      [
+        18,
+        24,
+        69,
+        77
+      ],
+      [
+        19,
+        23,
+        69,
+        76
+      ],
+      [
+        18,
+        24,
+        68,
+        77
+      ],
+      [
+        20,
+        24,
+        69,
+        77
+      ]
+    ],
+    "actual_boxes": [
+      [
+        12,
+        22,
+        96,
+        96
+      ],
+      [
+        132,
+        22,
+        96,
+        96
+      ],
+      [
+        252,
+        22,
+        96,
+        96
+      ],
+      [
+        372,
+        22,
+        96,
+        96
+      ],
+      [
+        492,
+        22,
+        96,
+        96
+      ]
+    ],
+    "backgrounds": [
+      "#3FA9D6",
+      "#1B5E8C",
+      "#0B2A4A",
+      "#061528",
+      "#04070D"
+    ],
+    "gif_durations_ms": [
+      80,
+      90,
+      80,
+      80
+    ],
+    "exact_animation_fps": 12,
+    "gif_cycle_ms": 330,
+    "target_height_policy": "Retain previous round fixed affine scale across all nine clips and three skins; new poses may exceed nominal56px; per-frame heights reported; canvas96px. No per-frame or per-action fitting."
+  }
+}

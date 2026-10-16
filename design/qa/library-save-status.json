@@ -1,0 +1,11 @@
+{
+  "status": "failed_before_transfer",
+  "target": [
+    "option_a.png",
+    "option_b.png",
+    "option_c.png",
+    "nabo_dive_round1_sources.zip"
+  ],
+  "library_file_ids": [],
+  "reason": "Library batch saving unavailable; local deliverables are complete."
+}

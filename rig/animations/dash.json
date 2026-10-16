@@ -1,0 +1,568 @@
+{
+  "name": "dash",
+  "revision": 3,
+  "fps": 12,
+  "frame_count": 4,
+  "loop": true,
+  "duration_seconds": 0.3333333333333333,
+  "sample_phases": [
+    0.0,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "interpolation": "C1 periodic Hermite / slope-limited tangents; no uniform pendulum or duplicate end frame",
+  "keyframes": [
+    {
+      "phase": 0.0,
+      "label": "fixed head / shoulders / arms; alternating small ankle and shin flutter",
+      "rotations": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": -0.5,
+        "head": -4,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 107.897876,
+        "forearm_hand_near": -73.030739,
+        "upper_arm_far": -117.800852,
+        "forearm_hand_far": 41.408003,
+        "thigh_near": -27.783236,
+        "shin_foot_near": 27.385436,
+        "thigh_far": 35.105006,
+        "shin_foot_far": -16.854595,
+        "cloth_waist_near": 0.0,
+        "cloth_waist_far": 0.0,
+        "cloth_collar": 0.0,
+        "shoulder_near": 0.0,
+        "shoulder_far": -0.0,
+        "pelvis": 0.0,
+        "foot_near": -5,
+        "foot_far": 5,
+        "hand_near": 0.0,
+        "hand_far": 0.0
+      },
+      "translations": {
+        "root": [
+          0.0,
+          0.0
+        ],
+        "torso": [
+          0.0,
+          0.0
+        ],
+        "neck": [
+          0,
+          0.5
+        ],
+        "head": [
+          0.0,
+          0.0
+        ],
+        "eyes": [
+          0.0,
+          0.0
+        ],
+        "mouth": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_near": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_near": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_far": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_far": [
+          0.0,
+          0.0
+        ],
+        "thigh_near": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_near": [
+          0.0,
+          0.0
+        ],
+        "thigh_far": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_near": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_collar": [
+          0.0,
+          0.0
+        ],
+        "shoulder_near": [
+          0.5,
+          -2.6
+        ],
+        "shoulder_far": [
+          -0.5,
+          -2.6
+        ],
+        "pelvis": [
+          0.0,
+          0.0
+        ],
+        "foot_near": [
+          0.0,
+          0.0
+        ],
+        "foot_far": [
+          0.0,
+          0.0
+        ],
+        "hand_near": [
+          0.0,
+          0.0
+        ],
+        "hand_far": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "phase": 0.25,
+      "label": "fixed head / shoulders / arms; alternating small ankle and shin flutter",
+      "rotations": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": -0.5,
+        "head": -4,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 107.897876,
+        "forearm_hand_near": -73.030739,
+        "upper_arm_far": -117.800852,
+        "forearm_hand_far": 41.408003,
+        "thigh_near": -27.783236,
+        "shin_foot_near": 29.185436,
+        "thigh_far": 35.105006,
+        "shin_foot_far": -18.654595,
+        "cloth_waist_near": 0.0,
+        "cloth_waist_far": 0.0,
+        "cloth_collar": 0.0,
+        "shoulder_near": 0.0,
+        "shoulder_far": -0.0,
+        "pelvis": 0.0,
+        "foot_near": 2.1999999999999993,
+        "foot_far": -2.1999999999999993,
+        "hand_near": 0.0,
+        "hand_far": 0.0
+      },
+      "translations": {
+        "root": [
+          0.0,
+          0.0
+        ],
+        "torso": [
+          0.0,
+          0.0
+        ],
+        "neck": [
+          0,
+          0.5
+        ],
+        "head": [
+          0.0,
+          0.0
+        ],
+        "eyes": [
+          0.0,
+          0.0
+        ],
+        "mouth": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_near": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_near": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_far": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_far": [
+          0.0,
+          0.0
+        ],
+        "thigh_near": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_near": [
+          0.0,
+          0.0
+        ],
+        "thigh_far": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_near": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_collar": [
+          0.0,
+          0.0
+        ],
+        "shoulder_near": [
+          0.5,
+          -2.6
+        ],
+        "shoulder_far": [
+          -0.5,
+          -2.6
+        ],
+        "pelvis": [
+          0.0,
+          0.0
+        ],
+        "foot_near": [
+          0.0,
+          0.0
+        ],
+        "foot_far": [
+          0.0,
+          0.0
+        ],
+        "hand_near": [
+          0.0,
+          0.0
+        ],
+        "hand_far": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "phase": 0.5,
+      "label": "fixed head / shoulders / arms; alternating small ankle and shin flutter",
+      "rotations": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": -0.5,
+        "head": -4,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 107.897876,
+        "forearm_hand_near": -73.030739,
+        "upper_arm_far": -117.800852,
+        "forearm_hand_far": 41.408003,
+        "thigh_near": -27.783236,
+        "shin_foot_near": 27.385436,
+        "thigh_far": 35.105006,
+        "shin_foot_far": -16.854595,
+        "cloth_waist_near": 0.0,
+        "cloth_waist_far": 0.0,
+        "cloth_collar": 0.0,
+        "shoulder_near": 0.0,
+        "shoulder_far": -0.0,
+        "pelvis": 0.0,
+        "foot_near": -5,
+        "foot_far": 5,
+        "hand_near": 0.0,
+        "hand_far": 0.0
+      },
+      "translations": {
+        "root": [
+          0.0,
+          0.0
+        ],
+        "torso": [
+          0.0,
+          0.0
+        ],
+        "neck": [
+          0,
+          0.5
+        ],
+        "head": [
+          0.0,
+          0.0
+        ],
+        "eyes": [
+          0.0,
+          0.0
+        ],
+        "mouth": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_near": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_near": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_far": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_far": [
+          0.0,
+          0.0
+        ],
+        "thigh_near": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_near": [
+          0.0,
+          0.0
+        ],
+        "thigh_far": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_near": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_collar": [
+          0.0,
+          0.0
+        ],
+        "shoulder_near": [
+          0.5,
+          -2.6
+        ],
+        "shoulder_far": [
+          -0.5,
+          -2.6
+        ],
+        "pelvis": [
+          0.0,
+          0.0
+        ],
+        "foot_near": [
+          0.0,
+          0.0
+        ],
+        "foot_far": [
+          0.0,
+          0.0
+        ],
+        "hand_near": [
+          0.0,
+          0.0
+        ],
+        "hand_far": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "phase": 0.75,
+      "label": "fixed head / shoulders / arms; alternating small ankle and shin flutter",
+      "rotations": {
+        "root": 0.0,
+        "torso": 0.0,
+        "neck": -0.5,
+        "head": -4,
+        "eyes": 0.0,
+        "mouth": 0.0,
+        "upper_arm_near": 107.897876,
+        "forearm_hand_near": -73.030739,
+        "upper_arm_far": -117.800852,
+        "forearm_hand_far": 41.408003,
+        "thigh_near": -27.783236,
+        "shin_foot_near": 25.585435999999998,
+        "thigh_far": 35.105006,
+        "shin_foot_far": -15.054594999999999,
+        "cloth_waist_near": 0.0,
+        "cloth_waist_far": 0.0,
+        "cloth_collar": 0.0,
+        "shoulder_near": 0.0,
+        "shoulder_far": -0.0,
+        "pelvis": 0.0,
+        "foot_near": -12.2,
+        "foot_far": 12.2,
+        "hand_near": 0.0,
+        "hand_far": 0.0
+      },
+      "translations": {
+        "root": [
+          0.0,
+          0.0
+        ],
+        "torso": [
+          0.0,
+          0.0
+        ],
+        "neck": [
+          0,
+          0.5
+        ],
+        "head": [
+          0.0,
+          0.0
+        ],
+        "eyes": [
+          0.0,
+          0.0
+        ],
+        "mouth": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_near": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_near": [
+          0.0,
+          0.0
+        ],
+        "upper_arm_far": [
+          0.0,
+          0.0
+        ],
+        "forearm_hand_far": [
+          0.0,
+          0.0
+        ],
+        "thigh_near": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_near": [
+          0.0,
+          0.0
+        ],
+        "thigh_far": [
+          0.0,
+          0.0
+        ],
+        "shin_foot_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_near": [
+          0.0,
+          0.0
+        ],
+        "cloth_waist_far": [
+          0.0,
+          0.0
+        ],
+        "cloth_collar": [
+          0.0,
+          0.0
+        ],
+        "shoulder_near": [
+          0.5,
+          -2.6
+        ],
+        "shoulder_far": [
+          -0.5,
+          -2.6
+        ],
+        "pelvis": [
+          0.0,
+          0.0
+        ],
+        "foot_near": [
+          0.0,
+          0.0
+        ],
+        "foot_far": [
+          0.0,
+          0.0
+        ],
+        "hand_near": [
+          0.0,
+          0.0
+        ],
+        "hand_far": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "secondary": {
+    "driver": [
+      0,
+      1.2,
+      0,
+      -1.2
+    ],
+    "lag_frames": 0.75,
+    "nodes": {
+      "cloth_waist_near": {
+        "gain": 0.6,
+        "phase_offset": 0
+      },
+      "cloth_waist_far": {
+        "gain": 0.85,
+        "phase_offset": 0
+      },
+      "cloth_collar": {
+        "gain": 0.7,
+        "phase_offset": 0
+      }
+    }
+  },
+  "skin_invariant": true,
+  "notes": {
+    "root": "fixed",
+    "torso": "fixed chest at128,128; no global tilt, translation, squash",
+    "local_motion": "neck -> head chain; shoulder offsets <=3px; pelvis rotation <=2deg; hip/knee/ankle links",
+    "constant_arm_lengths_within_revision": true,
+    "arm_bind_projection_revision": 2.2,
+    "dash_projection": "Head/costume/hand shape and limb width unchanged. Fixed arm centerline projection calibrated once for overhead reach, shared by all skins and both actions. No per-frame stretch.",
+    "dash_hold": "Head, neck, shoulders, arms, hands, pelvis and thighs are fixed. Only ankles/shins and garment ends move."
+  },
+  "references": [
+    "https://www.usms.org/fitness-and-training/guides/breaststroke/timing",
+    "https://www.usms.org/fitness-and-training/guides/breaststroke/pull",
+    "https://www.usms.org/fitness-and-training/guides/breaststroke/kick",
+    "https://www.usms.org/fitness-and-training/guides/breaststroke/body-position"
+  ]
+}

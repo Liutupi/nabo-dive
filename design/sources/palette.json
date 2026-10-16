@@ -1,0 +1,130 @@
+{
+  "ink": {
+    "rgb": "#1D2938",
+    "rgb565": "0x1947"
+  },
+  "rim": {
+    "rgb": "#EAF4F1",
+    "rgb565": "0xEFBE"
+  },
+  "white": {
+    "rgb": "#F4F7F2",
+    "rgb565": "0xF7BE"
+  },
+  "w1": {
+    "rgb": "#CDDDE2",
+    "rgb565": "0xCEFC"
+  },
+  "w2": {
+    "rgb": "#8EA9B7",
+    "rgb565": "0x8D56"
+  },
+  "skin": {
+    "rgb": "#F5C394",
+    "rgb565": "0xF612"
+  },
+  "s1": {
+    "rgb": "#DFA072",
+    "rgb565": "0xDD0E"
+  },
+  "s2": {
+    "rgb": "#B96F50",
+    "rgb565": "0xBB6A"
+  },
+  "hair": {
+    "rgb": "#795038",
+    "rgb565": "0x7A87"
+  },
+  "h1": {
+    "rgb": "#54392D",
+    "rgb565": "0x51C5"
+  },
+  "h2": {
+    "rgb": "#322C2A",
+    "rgb565": "0x3165"
+  },
+  "blue": {
+    "rgb": "#2670B5",
+    "rgb565": "0x2396"
+  },
+  "b1": {
+    "rgb": "#175383",
+    "rgb565": "0x1290"
+  },
+  "b2": {
+    "rgb": "#113958",
+    "rgb565": "0x11CB"
+  },
+  "lens": {
+    "rgb": "#BDE6E8",
+    "rgb565": "0xBF3D"
+  },
+  "navy": {
+    "rgb": "#183B61",
+    "rgb565": "0x19CC"
+  },
+  "n1": {
+    "rgb": "#122C49",
+    "rgb565": "0x1169"
+  },
+  "n2": {
+    "rgb": "#0C1C32",
+    "rgb565": "0x08E6"
+  },
+  "coral": {
+    "rgb": "#EF7857",
+    "rgb565": "0xEBCA"
+  },
+  "c1": {
+    "rgb": "#C84F3E",
+    "rgb565": "0xCA67"
+  },
+  "c2": {
+    "rgb": "#8E3431",
+    "rgb565": "0x89A6"
+  },
+  "mint": {
+    "rgb": "#A8DED0",
+    "rgb565": "0xAEFA"
+  },
+  "m1": {
+    "rgb": "#6FB9AC",
+    "rgb565": "0x6DD5"
+  },
+  "m2": {
+    "rgb": "#397E7C",
+    "rgb565": "0x3BEF"
+  },
+  "paper": {
+    "rgb": "#F1EDE3",
+    "rgb565": "0xF77C"
+  },
+  "muted": {
+    "rgb": "#6A7B86",
+    "rgb565": "0x6BD0"
+  },
+  "deep": {
+    "rgb": "#0B2A4A",
+    "rgb565": "0x0949"
+  },
+  "black": {
+    "rgb": "#04070D",
+    "rgb565": "0x0021"
+  },
+  "ochre": {
+    "rgb": "#D6AD63",
+    "rgb565": "0xD56C"
+  },
+  "line": {
+    "rgb": "#D9D4C8",
+    "rgb565": "0xDEB9"
+  },
+  "panel": {
+    "rgb": "#FFFFFF",
+    "rgb565": "0xFFFF"
+  },
+  "label": {
+    "rgb": "#B6C7CD",
+    "rgb565": "0xB639"
+  }
+}

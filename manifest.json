@@ -1,0 +1,566 @@
+{
+  "schema_version": 2,
+  "revision": "round3_v4",
+  "status": "awaiting user confirmation; not integrated into game",
+  "canvas": [
+    256,
+    256
+  ],
+  "anchor": [
+    128,
+    128
+  ],
+  "fps": 12,
+  "nabo_target_height_px": 56,
+  "facing": "down-left",
+  "default_skin": "a",
+  "shared_rig": "rig/rig.json",
+  "skins": {
+    "a": {
+      "name": "白褂潜行",
+      "slots": {
+        "head": "common/head.svg",
+        "eyes": "common/eyes_neutral.svg",
+        "mouth": "common/mouth_neutral.svg",
+        "neck": "common/neck.svg",
+        "torso": "skins/a/torso.svg",
+        "cloth_waist_near": "skins/a/cloth_waist_near.svg",
+        "cloth_waist_far": "skins/a/cloth_waist_far.svg",
+        "cloth_collar": null,
+        "upper_arm_near": "skins/a/upper_arm_near.svg",
+        "forearm_hand_near": "skins/a/forearm_hand_near.svg",
+        "upper_arm_far": "skins/a/upper_arm_far.svg",
+        "forearm_hand_far": "skins/a/forearm_hand_far.svg",
+        "thigh_near": "skins/a/thigh_near.svg",
+        "shin_foot_near": "skins/a/shin_foot_near.svg",
+        "thigh_far": "skins/a/thigh_far.svg",
+        "shin_foot_far": "skins/a/shin_foot_far.svg",
+        "foot_near": "skins/a/foot_near.svg",
+        "foot_far": "skins/a/foot_far.svg",
+        "hand_near": "skins/a/hand_near.svg",
+        "hand_far": "skins/a/hand_far.svg",
+        "mouth_bubbles": null
+      }
+    },
+    "b": {
+      "name": "珊瑚救援",
+      "slots": {
+        "head": "common/head.svg",
+        "eyes": "common/eyes_neutral.svg",
+        "mouth": "common/mouth_neutral.svg",
+        "neck": "common/neck.svg",
+        "torso": "skins/b/torso.svg",
+        "cloth_waist_near": null,
+        "cloth_waist_far": "skins/b/cloth_waist_far.svg",
+        "cloth_collar": null,
+        "upper_arm_near": "skins/b/upper_arm_near.svg",
+        "forearm_hand_near": "skins/b/forearm_hand_near.svg",
+        "upper_arm_far": "skins/b/upper_arm_far.svg",
+        "forearm_hand_far": "skins/b/forearm_hand_far.svg",
+        "thigh_near": "skins/b/thigh_near.svg",
+        "shin_foot_near": "skins/b/shin_foot_near.svg",
+        "thigh_far": "skins/b/thigh_far.svg",
+        "shin_foot_far": "skins/b/shin_foot_far.svg",
+        "foot_near": "skins/b/foot_near.svg",
+        "foot_far": "skins/b/foot_far.svg",
+        "hand_near": "skins/b/hand_near.svg",
+        "hand_far": "skins/b/hand_far.svg",
+        "mouth_bubbles": null
+      }
+    },
+    "c": {
+      "name": "薄荷深潜",
+      "slots": {
+        "head": "common/head.svg",
+        "eyes": "common/eyes_neutral.svg",
+        "mouth": "common/mouth_neutral.svg",
+        "neck": "common/neck.svg",
+        "torso": "skins/c/torso.svg",
+        "cloth_waist_near": null,
+        "cloth_waist_far": null,
+        "cloth_collar": "skins/c/cloth_collar.svg",
+        "upper_arm_near": "skins/c/upper_arm_near.svg",
+        "forearm_hand_near": "skins/c/forearm_hand_near.svg",
+        "upper_arm_far": "skins/c/upper_arm_far.svg",
+        "forearm_hand_far": "skins/c/forearm_hand_far.svg",
+        "thigh_near": "skins/c/thigh_near.svg",
+        "shin_foot_near": "skins/c/shin_foot_near.svg",
+        "thigh_far": "skins/c/thigh_far.svg",
+        "shin_foot_far": "skins/c/shin_foot_far.svg",
+        "foot_near": "skins/c/foot_near.svg",
+        "foot_far": "skins/c/foot_far.svg",
+        "hand_near": "skins/c/hand_near.svg",
+        "hand_far": "skins/c/hand_far.svg",
+        "mouth_bubbles": null
+      }
+    }
+  },
+  "animations": {
+    "swim": {
+      "loop": true,
+      "fps": 12,
+      "frame_count": 8,
+      "timeline": "rig/animations/swim.json",
+      "frames": [
+        "frames/a/swim/01.png",
+        "frames/a/swim/02.png",
+        "frames/a/swim/03.png",
+        "frames/a/swim/04.png",
+        "frames/a/swim/05.png",
+        "frames/a/swim/06.png",
+        "frames/a/swim/07.png",
+        "frames/a/swim/08.png"
+      ],
+      "skin_frames": {
+        "a": [
+          "frames/a/swim/01.png",
+          "frames/a/swim/02.png",
+          "frames/a/swim/03.png",
+          "frames/a/swim/04.png",
+          "frames/a/swim/05.png",
+          "frames/a/swim/06.png",
+          "frames/a/swim/07.png",
+          "frames/a/swim/08.png"
+        ],
+        "b": [
+          "frames/b/swim/01.png",
+          "frames/b/swim/02.png",
+          "frames/b/swim/03.png",
+          "frames/b/swim/04.png",
+          "frames/b/swim/05.png",
+          "frames/b/swim/06.png",
+          "frames/b/swim/07.png",
+          "frames/b/swim/08.png"
+        ],
+        "c": [
+          "frames/c/swim/01.png",
+          "frames/c/swim/02.png",
+          "frames/c/swim/03.png",
+          "frames/c/swim/04.png",
+          "frames/c/swim/05.png",
+          "frames/c/swim/06.png",
+          "frames/c/swim/07.png",
+          "frames/c/swim/08.png"
+        ]
+      },
+      "events": {},
+      "event_index_base": 1,
+      "transition": null,
+      "sample_phases": [
+        0.0,
+        0.125,
+        0.25,
+        0.375,
+        0.5,
+        0.625,
+        0.75,
+        0.875
+      ],
+      "preview_actual": "preview/swim_compare_actual.gif",
+      "preview_4x": "preview/swim_compare_4x.gif"
+    },
+    "dash_in": {
+      "loop": false,
+      "fps": 12,
+      "frame_count": 3,
+      "timeline": "rig/animations/dash_in.json",
+      "frames": [
+        "frames/a/dash_in/01.png",
+        "frames/a/dash_in/02.png",
+        "frames/a/dash_in/03.png"
+      ],
+      "skin_frames": {
+        "a": [
+          "frames/a/dash_in/01.png",
+          "frames/a/dash_in/02.png",
+          "frames/a/dash_in/03.png"
+        ],
+        "b": [
+          "frames/b/dash_in/01.png",
+          "frames/b/dash_in/02.png",
+          "frames/b/dash_in/03.png"
+        ],
+        "c": [
+          "frames/c/dash_in/01.png",
+          "frames/c/dash_in/02.png",
+          "frames/c/dash_in/03.png"
+        ]
+      },
+      "events": {},
+      "event_index_base": 1,
+      "transition": {
+        "from": {
+          "animation": "swim",
+          "phase": 0
+        },
+        "to": {
+          "animation": "dash",
+          "phase": 0
+        },
+        "fixed_phase_only": true,
+        "hidden_endpoint_phase": 1,
+        "endpoint_not_exported": "Next clip first frame supplies u=1 after the three output samples."
+      },
+      "sample_phases": [
+        0,
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "preview_actual": "preview/dash_in_compare_actual.gif",
+      "preview_4x": "preview/dash_in_compare_4x.gif"
+    },
+    "dash": {
+      "loop": true,
+      "fps": 12,
+      "frame_count": 4,
+      "timeline": "rig/animations/dash.json",
+      "frames": [
+        "frames/a/dash/01.png",
+        "frames/a/dash/02.png",
+        "frames/a/dash/03.png",
+        "frames/a/dash/04.png"
+      ],
+      "skin_frames": {
+        "a": [
+          "frames/a/dash/01.png",
+          "frames/a/dash/02.png",
+          "frames/a/dash/03.png",
+          "frames/a/dash/04.png"
+        ],
+        "b": [
+          "frames/b/dash/01.png",
+          "frames/b/dash/02.png",
+          "frames/b/dash/03.png",
+          "frames/b/dash/04.png"
+        ],
+        "c": [
+          "frames/c/dash/01.png",
+          "frames/c/dash/02.png",
+          "frames/c/dash/03.png",
+          "frames/c/dash/04.png"
+        ]
+      },
+      "events": {},
+      "event_index_base": 1,
+      "transition": null,
+      "sample_phases": [
+        0.0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "preview_actual": "preview/dash_compare_actual.gif",
+      "preview_4x": "preview/dash_compare_4x.gif"
+    },
+    "dash_out": {
+      "loop": false,
+      "fps": 12,
+      "frame_count": 3,
+      "timeline": "rig/animations/dash_out.json",
+      "frames": [
+        "frames/a/dash_out/01.png",
+        "frames/a/dash_out/02.png",
+        "frames/a/dash_out/03.png"
+      ],
+      "skin_frames": {
+        "a": [
+          "frames/a/dash_out/01.png",
+          "frames/a/dash_out/02.png",
+          "frames/a/dash_out/03.png"
+        ],
+        "b": [
+          "frames/b/dash_out/01.png",
+          "frames/b/dash_out/02.png",
+          "frames/b/dash_out/03.png"
+        ],
+        "c": [
+          "frames/c/dash_out/01.png",
+          "frames/c/dash_out/02.png",
+          "frames/c/dash_out/03.png"
+        ]
+      },
+      "events": {},
+      "event_index_base": 1,
+      "transition": {
+        "from": {
+          "animation": "dash",
+          "phase": 0
+        },
+        "to": {
+          "animation": "swim",
+          "phase": 0
+        },
+        "fixed_phase_only": true,
+        "hidden_endpoint_phase": 1,
+        "endpoint_not_exported": "Next clip first frame supplies u=1 after the three output samples."
+      },
+      "sample_phases": [
+        0,
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "preview_actual": "preview/dash_out_compare_actual.gif",
+      "preview_4x": "preview/dash_out_compare_4x.gif"
+    },
+    "gulp": {
+      "loop": false,
+      "fps": 12,
+      "frame_count": 3,
+      "timeline": "rig/animations/gulp.json",
+      "frames": [
+        "frames/a/gulp/01.png",
+        "frames/a/gulp/02.png",
+        "frames/a/gulp/03.png"
+      ],
+      "skin_frames": {
+        "a": [
+          "frames/a/gulp/01.png",
+          "frames/a/gulp/02.png",
+          "frames/a/gulp/03.png"
+        ],
+        "b": [
+          "frames/b/gulp/01.png",
+          "frames/b/gulp/02.png",
+          "frames/b/gulp/03.png"
+        ],
+        "c": [
+          "frames/c/gulp/01.png",
+          "frames/c/gulp/02.png",
+          "frames/c/gulp/03.png"
+        ]
+      },
+      "events": {
+        "swallow": 2
+      },
+      "event_index_base": 1,
+      "transition": null,
+      "sample_phases": [
+        0,
+        0.5,
+        1
+      ],
+      "preview_actual": "preview/gulp_compare_actual.gif",
+      "preview_4x": "preview/gulp_compare_4x.gif"
+    },
+    "hit": {
+      "loop": false,
+      "fps": 12,
+      "frame_count": 4,
+      "timeline": "rig/animations/hit.json",
+      "frames": [
+        "frames/a/hit/01.png",
+        "frames/a/hit/02.png",
+        "frames/a/hit/03.png",
+        "frames/a/hit/04.png"
+      ],
+      "skin_frames": {
+        "a": [
+          "frames/a/hit/01.png",
+          "frames/a/hit/02.png",
+          "frames/a/hit/03.png",
+          "frames/a/hit/04.png"
+        ],
+        "b": [
+          "frames/b/hit/01.png",
+          "frames/b/hit/02.png",
+          "frames/b/hit/03.png",
+          "frames/b/hit/04.png"
+        ],
+        "c": [
+          "frames/c/hit/01.png",
+          "frames/c/hit/02.png",
+          "frames/c/hit/03.png",
+          "frames/c/hit/04.png"
+        ]
+      },
+      "events": {},
+      "event_index_base": 1,
+      "transition": {
+        "to": {
+          "animation": "swim",
+          "phase": 0
+        },
+        "last_exported_frame_matches": true,
+        "from_note": "Impact is a deliberate local recoil; arbitrary swim phase still requires runtime blend."
+      },
+      "sample_phases": [
+        0,
+        0.3333333333333333,
+        0.6666666666666666,
+        1
+      ],
+      "preview_actual": "preview/hit_compare_actual.gif",
+      "preview_4x": "preview/hit_compare_4x.gif"
+    },
+    "lowair": {
+      "loop": true,
+      "fps": 16,
+      "frame_count": 4,
+      "timeline": "rig/animations/lowair.json",
+      "frames": [
+        "frames/a/lowair/01.png",
+        "frames/a/lowair/02.png",
+        "frames/a/lowair/03.png",
+        "frames/a/lowair/04.png"
+      ],
+      "skin_frames": {
+        "a": [
+          "frames/a/lowair/01.png",
+          "frames/a/lowair/02.png",
+          "frames/a/lowair/03.png",
+          "frames/a/lowair/04.png"
+        ],
+        "b": [
+          "frames/b/lowair/01.png",
+          "frames/b/lowair/02.png",
+          "frames/b/lowair/03.png",
+          "frames/b/lowair/04.png"
+        ],
+        "c": [
+          "frames/c/lowair/01.png",
+          "frames/c/lowair/02.png",
+          "frames/c/lowair/03.png",
+          "frames/c/lowair/04.png"
+        ]
+      },
+      "events": {},
+      "event_index_base": 1,
+      "transition": null,
+      "sample_phases": [
+        0.0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "preview_actual": "preview/lowair_compare_actual.gif",
+      "preview_4x": "preview/lowair_compare_4x.gif"
+    },
+    "out": {
+      "loop": false,
+      "fps": 12,
+      "frame_count": 6,
+      "timeline": "rig/animations/out.json",
+      "frames": [
+        "frames/a/out/01.png",
+        "frames/a/out/02.png",
+        "frames/a/out/03.png",
+        "frames/a/out/04.png",
+        "frames/a/out/05.png",
+        "frames/a/out/06.png"
+      ],
+      "skin_frames": {
+        "a": [
+          "frames/a/out/01.png",
+          "frames/a/out/02.png",
+          "frames/a/out/03.png",
+          "frames/a/out/04.png",
+          "frames/a/out/05.png",
+          "frames/a/out/06.png"
+        ],
+        "b": [
+          "frames/b/out/01.png",
+          "frames/b/out/02.png",
+          "frames/b/out/03.png",
+          "frames/b/out/04.png",
+          "frames/b/out/05.png",
+          "frames/b/out/06.png"
+        ],
+        "c": [
+          "frames/c/out/01.png",
+          "frames/c/out/02.png",
+          "frames/c/out/03.png",
+          "frames/c/out/04.png",
+          "frames/c/out/05.png",
+          "frames/c/out/06.png"
+        ]
+      },
+      "events": {},
+      "event_index_base": 1,
+      "transition": null,
+      "sample_phases": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "preview_actual": "preview/out_compare_actual.gif",
+      "preview_4x": "preview/out_compare_4x.gif"
+    },
+    "turn": {
+      "loop": false,
+      "fps": 24,
+      "frame_count": 3,
+      "timeline": "rig/animations/turn.json",
+      "frames": [
+        "frames/a/turn/01.png",
+        "frames/a/turn/02.png",
+        "frames/a/turn/03.png"
+      ],
+      "skin_frames": {
+        "a": [
+          "frames/a/turn/01.png",
+          "frames/a/turn/02.png",
+          "frames/a/turn/03.png"
+        ],
+        "b": [
+          "frames/b/turn/01.png",
+          "frames/b/turn/02.png",
+          "frames/b/turn/03.png"
+        ],
+        "c": [
+          "frames/c/turn/01.png",
+          "frames/c/turn/02.png",
+          "frames/c/turn/03.png"
+        ]
+      },
+      "events": {},
+      "event_index_base": 1,
+      "transition": {
+        "from": {
+          "animation": "swim",
+          "phase": 0
+        },
+        "last_frame": "frontal symmetric pose; readable NABO wordmark exception for RGB only",
+        "mirror_completion": "T0,T1,T2,mirror(T1),mirror(T0); front frame shown once"
+      },
+      "sample_phases": [
+        0,
+        0.5,
+        1
+      ],
+      "preview_actual": "preview/turn_compare_actual.gif",
+      "preview_4x": "preview/turn_compare_4x.gif"
+    }
+  },
+  "sprites": {},
+  "preview_scale_to_actual": 0.25779258710765557,
+  "history": "history/round2_v1/snapshot.json",
+  "previous_version": "history/round2_v3/snapshot.json",
+  "transition_policy": {
+    "entry_swim_phase": 0,
+    "entry_dash_phase": 0,
+    "exit_dash_phase": 0,
+    "exit_swim_phase": 0,
+    "sampling": "3 samples at u=0,1/3,2/3; hidden u=1 equals the next clip first frame",
+    "arbitrary_swim_phase": "Not solved by fixed PNGs. Runtime pose blending or phase gating is required; no engine changes in this delivery."
+  },
+  "preview_sequence": {
+    "actual": "preview/dash_sequence_actual.gif",
+    "4x": "preview/dash_sequence_4x.gif",
+    "timeline": "preview/qa/dash-sequence.json"
+  },
+  "preview_sequences": {
+    "hit": {
+      "actual": "preview/hit_sequence_actual.gif",
+      "4x": "preview/hit_sequence_4x.gif",
+      "timeline": "preview/qa/hit-sequence.json"
+    },
+    "turn": {
+      "actual": "preview/turn_sequence_actual.gif",
+      "4x": "preview/turn_sequence_4x.gif",
+      "timeline": "preview/qa/turn-sequence.json"
+    }
+  }
+}

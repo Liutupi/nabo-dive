@@ -1,0 +1,404 @@
+{
+  "stage": "Round 1 static concepts only; await user selection",
+  "source": "Original SVG drawings, no image generation or copied pixels",
+  "documents": "Existing ART_BRIEF.md and CODEX_PROMPTS.md match Library text apart from final newline; preserved unchanged",
+  "palette_rgb_limit": 32,
+  "alpha_levels": [
+    0,
+    17,
+    34,
+    51,
+    68,
+    85,
+    102,
+    119,
+    136,
+    153,
+    170,
+    187,
+    204,
+    221,
+    238,
+    255
+  ],
+  "chest_anchor": [
+    128,
+    128
+  ],
+  "body_direction_degrees_from_positive_x": 130,
+  "options": {
+    "a": {
+      "sprite_palette_entries": 19,
+      "sprite_palette": {
+        "ink": "#1D2938",
+        "rim": "#EAF4F1",
+        "white": "#F4F7F2",
+        "w1": "#CDDDE2",
+        "w2": "#8EA9B7",
+        "skin": "#F5C394",
+        "s1": "#DFA072",
+        "s2": "#B96F50",
+        "hair": "#795038",
+        "h1": "#54392D",
+        "h2": "#322C2A",
+        "blue": "#2670B5",
+        "b1": "#175383",
+        "b2": "#113958",
+        "lens": "#BDE6E8",
+        "navy": "#183B61",
+        "n1": "#122C49",
+        "n2": "#0C1C32",
+        "ochre": "#D6AD63"
+      },
+      "dive": {
+        "canvas": [
+          256,
+          256
+        ],
+        "visible_bbox": [
+          27,
+          28,
+          216,
+          240
+        ],
+        "distinct_rgb_visible": 19,
+        "distinct_alpha": [
+          0,
+          17,
+          34,
+          51,
+          68,
+          85,
+          102,
+          119,
+          136,
+          153,
+          170,
+          187,
+          204,
+          221,
+          238,
+          255
+        ]
+      },
+      "front": {
+        "canvas": [
+          256,
+          256
+        ],
+        "visible_bbox": [
+          65,
+          4,
+          188,
+          236
+        ],
+        "distinct_rgb_visible": 19,
+        "distinct_alpha": [
+          0,
+          17,
+          34,
+          51,
+          68,
+          85,
+          102,
+          119,
+          136,
+          153,
+          170,
+          187,
+          204,
+          221,
+          238,
+          255
+        ]
+      },
+      "actual": {
+        "canvas": [
+          50,
+          56
+        ],
+        "visible_bbox": [
+          0,
+          0,
+          50,
+          56
+        ],
+        "distinct_rgb_visible": 19,
+        "distinct_alpha": [
+          0,
+          17,
+          34,
+          51,
+          68,
+          85,
+          102,
+          119,
+          136,
+          153,
+          170,
+          187,
+          204,
+          221,
+          238,
+          255
+        ]
+      },
+      "floating_part": "双片短衣摆",
+      "sheet_size": [
+        1600,
+        1200
+      ],
+      "sheet_rgb_colors": 29,
+      "sha256": "ca2b1ac8b597c84ada7a5e0e1017dc3efb937010eda12f49d3c071d27b9b7e3c"
+    },
+    "b": {
+      "sprite_palette_entries": 20,
+      "sprite_palette": {
+        "ink": "#1D2938",
+        "rim": "#EAF4F1",
+        "white": "#F4F7F2",
+        "w1": "#CDDDE2",
+        "w2": "#8EA9B7",
+        "skin": "#F5C394",
+        "s1": "#DFA072",
+        "s2": "#B96F50",
+        "hair": "#795038",
+        "h1": "#54392D",
+        "h2": "#322C2A",
+        "blue": "#2670B5",
+        "b1": "#175383",
+        "b2": "#113958",
+        "lens": "#BDE6E8",
+        "coral": "#EF7857",
+        "c1": "#C84F3E",
+        "c2": "#8E3431",
+        "navy": "#183B61",
+        "ochre": "#D6AD63"
+      },
+      "dive": {
+        "canvas": [
+          256,
+          256
+        ],
+        "visible_bbox": [
+          27,
+          28,
+          216,
+          240
+        ],
+        "distinct_rgb_visible": 20,
+        "distinct_alpha": [
+          0,
+          17,
+          34,
+          51,
+          68,
+          85,
+          102,
+          119,
+          136,
+          153,
+          170,
+          187,
+          204,
+          221,
+          238,
+          255
+        ]
+      },
+      "front": {
+        "canvas": [
+          256,
+          256
+        ],
+        "visible_bbox": [
+          65,
+          4,
+          202,
+          236
+        ],
+        "distinct_rgb_visible": 20,
+        "distinct_alpha": [
+          0,
+          17,
+          34,
+          51,
+          68,
+          85,
+          102,
+          119,
+          136,
+          153,
+          170,
+          187,
+          204,
+          221,
+          238,
+          255
+        ]
+      },
+      "actual": {
+        "canvas": [
+          50,
+          56
+        ],
+        "visible_bbox": [
+          0,
+          0,
+          50,
+          56
+        ],
+        "distinct_rgb_visible": 20,
+        "distinct_alpha": [
+          0,
+          17,
+          34,
+          51,
+          68,
+          85,
+          102,
+          119,
+          136,
+          153,
+          170,
+          187,
+          204,
+          221,
+          238,
+          255
+        ]
+      },
+      "floating_part": "腰侧救援织带",
+      "sheet_size": [
+        1600,
+        1200
+      ],
+      "sheet_rgb_colors": 32,
+      "sha256": "f40781907c27831d0fa6ec7b174ba3702b52db1ccb12a62e60f13ef5dc1d9c6a"
+    },
+    "c": {
+      "sprite_palette_entries": 19,
+      "sprite_palette": {
+        "ink": "#1D2938",
+        "rim": "#EAF4F1",
+        "white": "#F4F7F2",
+        "w1": "#CDDDE2",
+        "w2": "#8EA9B7",
+        "skin": "#F5C394",
+        "s1": "#DFA072",
+        "s2": "#B96F50",
+        "hair": "#795038",
+        "h1": "#54392D",
+        "h2": "#322C2A",
+        "blue": "#2670B5",
+        "b1": "#175383",
+        "b2": "#113958",
+        "lens": "#BDE6E8",
+        "mint": "#A8DED0",
+        "m1": "#6FB9AC",
+        "m2": "#397E7C",
+        "navy": "#183B61"
+      },
+      "dive": {
+        "canvas": [
+          256,
+          256
+        ],
+        "visible_bbox": [
+          27,
+          28,
+          216,
+          240
+        ],
+        "distinct_rgb_visible": 19,
+        "distinct_alpha": [
+          0,
+          17,
+          34,
+          51,
+          68,
+          85,
+          102,
+          119,
+          136,
+          153,
+          170,
+          187,
+          204,
+          221,
+          238,
+          255
+        ]
+      },
+      "front": {
+        "canvas": [
+          256,
+          256
+        ],
+        "visible_bbox": [
+          65,
+          4,
+          197,
+          236
+        ],
+        "distinct_rgb_visible": 19,
+        "distinct_alpha": [
+          0,
+          17,
+          34,
+          51,
+          68,
+          85,
+          102,
+          119,
+          136,
+          153,
+          170,
+          187,
+          204,
+          221,
+          238,
+          255
+        ]
+      },
+      "actual": {
+        "canvas": [
+          50,
+          56
+        ],
+        "visible_bbox": [
+          0,
+          0,
+          50,
+          56
+        ],
+        "distinct_rgb_visible": 19,
+        "distinct_alpha": [
+          0,
+          17,
+          34,
+          51,
+          68,
+          85,
+          102,
+          119,
+          136,
+          153,
+          170,
+          187,
+          204,
+          221,
+          238,
+          255
+        ]
+      },
+      "floating_part": "蓝色宽领带尾",
+      "sheet_size": [
+        1600,
+        1200
+      ],
+      "sheet_rgb_colors": 28,
+      "sha256": "c866c471513eac5f9e9a88a2ab6ae4842e69fa0e1f3db30740442111625c6467"
+    }
+  }
+}

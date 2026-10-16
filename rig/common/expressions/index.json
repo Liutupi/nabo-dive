@@ -1,0 +1,167 @@
+{
+  "generator": "NABO expressions generator v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "coordinate_system": "absolute bind coordinates, no baked root transform",
+  "skin_scope": [
+    "a",
+    "b",
+    "c"
+  ],
+  "slots": {
+    "eyes": {
+      "bone": "eyes",
+      "pivot": [
+        128,
+        80
+      ],
+      "parent": "head",
+      "replaces": "common/eyes_neutral.svg"
+    },
+    "mouth": {
+      "bone": "mouth",
+      "pivot": [
+        124,
+        99
+      ],
+      "parent": "head",
+      "replaces": "common/mouth_neutral.svg"
+    },
+    "mouth_bubbles": {
+      "suggested_bone": "mouth_bubbles",
+      "pivot": [
+        124,
+        99
+      ],
+      "parent": "head",
+      "draw_after": "mouth",
+      "default": null
+    }
+  },
+  "preserved": "All eye assets retain exact original frame, bridge, temple and nose paths. No head or neutral SVG is modified.",
+  "assets": {
+    "strained_eye": {
+      "slot": "eyes",
+      "path": "common/expressions/strained_eye.svg",
+      "sha256": "ce3d02007b875b1666ef74fb948bd360e6eb558224aec985c5a6234522b186c6",
+      "rgb": [
+        "#1D2938",
+        "#DFA072",
+        "#F5C394"
+      ]
+    },
+    "closed_eye": {
+      "slot": "eyes",
+      "path": "common/expressions/closed_eye.svg",
+      "sha256": "0df9536c9737b371dabe54f7a443b3798173abfcb25abd0d75786affdbe1ca8f",
+      "rgb": [
+        "#1D2938",
+        "#DFA072",
+        "#F5C394"
+      ]
+    },
+    "cross_eye": {
+      "slot": "eyes",
+      "path": "common/expressions/cross_eye.svg",
+      "sha256": "48b5b80fab3656f16242d94e3f2fecdfdb8c2fd9294337afad4d607671d52ed8",
+      "rgb": [
+        "#1D2938",
+        "#DFA072",
+        "#F5C394"
+      ]
+    },
+    "surprised_eye": {
+      "slot": "eyes",
+      "path": "common/expressions/surprised_eye.svg",
+      "sha256": "05935fc683dd9fec342db5b47d90b837cc8198dfdd296ee98c53fb7dba646f7e",
+      "rgb": [
+        "#175383",
+        "#1D2938",
+        "#DFA072",
+        "#F4F7F2",
+        "#F5C394"
+      ]
+    },
+    "happy_eye": {
+      "slot": "eyes",
+      "path": "common/expressions/happy_eye.svg",
+      "sha256": "07ff495ff6222074f352d85bd329a46f2f6375501b02d557959b27fa5a6bf482",
+      "rgb": [
+        "#1D2938",
+        "#DFA072",
+        "#F5C394"
+      ]
+    },
+    "gulp_open": {
+      "slot": "mouth",
+      "path": "common/expressions/gulp_open.svg",
+      "sha256": "da85cb4d39babb4cdfe0f3c76b9f8f4d065676e56fa2d692fda2b2e800916004",
+      "rgb": [
+        "#1D2938",
+        "#B96F50"
+      ]
+    },
+    "cheeks_puffed_mouth": {
+      "slot": "mouth",
+      "path": "common/expressions/cheeks_puffed_mouth.svg",
+      "sha256": "e7b570c0c831516b95cf4b0d0fe64a33f446553465ad6d2e0fd22cb32bce7506",
+      "rgb": [
+        "#1D2938",
+        "#DFA072",
+        "#F5C394"
+      ]
+    },
+    "gasp_mouth": {
+      "slot": "mouth",
+      "path": "common/expressions/gasp_mouth.svg",
+      "sha256": "de9802bd5021313a07522deb39e1a6b0c80cae00d01af7e82a952a1fc821ea00",
+      "rgb": [
+        "#1D2938",
+        "#B96F50"
+      ]
+    },
+    "happy_mouth": {
+      "slot": "mouth",
+      "path": "common/expressions/happy_mouth.svg",
+      "sha256": "068c0d245091eccae7e3fd80255755d6a51d9eb49c1ec39790d134a7e1ced76e",
+      "rgb": [
+        "#1D2938",
+        "#B96F50",
+        "#F4F7F2"
+      ]
+    },
+    "bubbles_small_1": {
+      "slot": "mouth_bubbles",
+      "path": "common/expressions/bubbles_small_1.svg",
+      "sha256": "f8473d63861db35ba429fc379adfc29d2b2a56459f960bea2922ae125bf509b8",
+      "rgb": [
+        "#1D2938",
+        "#BDE6E8",
+        "#F4F7F2"
+      ]
+    },
+    "bubbles_small_2": {
+      "slot": "mouth_bubbles",
+      "path": "common/expressions/bubbles_small_2.svg",
+      "sha256": "d90bfb5e0bd14e15c7fa44a62a9b51723c93f2aeb289f8bf1b1afdd04283d5e4",
+      "rgb": [
+        "#1D2938",
+        "#BDE6E8",
+        "#F4F7F2"
+      ]
+    },
+    "bubbles_small_3": {
+      "slot": "mouth_bubbles",
+      "path": "common/expressions/bubbles_small_3.svg",
+      "sha256": "7284ddb1e7106ffc00fbe73469f4583b1a6f468c0a650b617a53c9b25d73899e",
+      "rgb": [
+        "#1D2938",
+        "#BDE6E8",
+        "#F4F7F2"
+      ]
+    }
+  },
+  "mouth_bubble_policy": "Small localized exhalations for explicitly specified hit and out actions only. No continuous swim/dash trail."
+}

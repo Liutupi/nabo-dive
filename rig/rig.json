@@ -1,0 +1,1114 @@
+{
+  "version": 4,
+  "scope": "round3 updated prototype brief; old and new animations awaiting user review; no integration claimed",
+  "canvas": [
+    256,
+    256
+  ],
+  "anchor": [
+    128,
+    128
+  ],
+  "fps": 12,
+  "standard_angle_degrees": 50,
+  "facing": "down-left",
+  "coordinate_system": "Each SVG uses the same absolute 256x256 bind coordinates. Parent world matrix times rotation about bind pivot. Root: T(anchor) R(-90-angle) S(scale) T(-anchor).",
+  "bones": {
+    "root": {
+      "parent": null,
+      "pivot": [
+        128,
+        128
+      ]
+    },
+    "torso": {
+      "parent": "root",
+      "pivot": [
+        128,
+        128
+      ]
+    },
+    "neck": {
+      "parent": "torso",
+      "pivot": [
+        128,
+        110
+      ]
+    },
+    "head": {
+      "parent": "neck",
+      "pivot": [
+        128,
+        104
+      ]
+    },
+    "eyes": {
+      "parent": "head",
+      "pivot": [
+        128,
+        80
+      ]
+    },
+    "mouth": {
+      "parent": "head",
+      "pivot": [
+        124,
+        99
+      ]
+    },
+    "upper_arm_near": {
+      "parent": "shoulder_near",
+      "pivot": [
+        107,
+        121
+      ]
+    },
+    "forearm_hand_near": {
+      "parent": "upper_arm_near",
+      "pivot": [
+        56.4,
+        143.0
+      ]
+    },
+    "upper_arm_far": {
+      "parent": "shoulder_far",
+      "pivot": [
+        149,
+        121
+      ]
+    },
+    "forearm_hand_far": {
+      "parent": "upper_arm_far",
+      "pivot": [
+        193.0,
+        167.2
+      ]
+    },
+    "thigh_near": {
+      "parent": "pelvis",
+      "pivot": [
+        118,
+        164
+      ]
+    },
+    "shin_foot_near": {
+      "parent": "thigh_near",
+      "pivot": [
+        108,
+        187
+      ]
+    },
+    "thigh_far": {
+      "parent": "pelvis",
+      "pivot": [
+        138,
+        164
+      ]
+    },
+    "shin_foot_far": {
+      "parent": "thigh_far",
+      "pivot": [
+        156,
+        183
+      ]
+    },
+    "cloth_waist_near": {
+      "parent": "torso",
+      "pivot": [
+        110,
+        154
+      ]
+    },
+    "cloth_waist_far": {
+      "parent": "torso",
+      "pivot": [
+        144,
+        154
+      ]
+    },
+    "cloth_collar": {
+      "parent": "torso",
+      "pivot": [
+        146,
+        116
+      ]
+    },
+    "shoulder_near": {
+      "parent": "torso",
+      "pivot": [
+        107,
+        121
+      ]
+    },
+    "shoulder_far": {
+      "parent": "torso",
+      "pivot": [
+        149,
+        121
+      ]
+    },
+    "pelvis": {
+      "parent": "torso",
+      "pivot": [
+        128,
+        159
+      ]
+    },
+    "foot_near": {
+      "parent": "shin_foot_near",
+      "pivot": [
+        111,
+        205
+      ]
+    },
+    "foot_far": {
+      "parent": "shin_foot_far",
+      "pivot": [
+        153,
+        202
+      ]
+    },
+    "hand_near": {
+      "parent": "forearm_hand_near",
+      "pivot": [
+        43.199999999999996,
+        81.39999999999999
+      ]
+    },
+    "hand_far": {
+      "parent": "forearm_hand_far",
+      "pivot": [
+        234.8,
+        116.6
+      ]
+    },
+    "mouth_bubbles": {
+      "parent": "head",
+      "pivot": [
+        124,
+        99
+      ]
+    }
+  },
+  "draw_order": [
+    "cloth_waist_near",
+    "cloth_waist_far",
+    "cloth_collar",
+    "upper_arm_far",
+    "forearm_hand_far",
+    "thigh_far",
+    "shin_foot_far",
+    "foot_far",
+    "thigh_near",
+    "shin_foot_near",
+    "foot_near",
+    "neck",
+    "torso",
+    "upper_arm_near",
+    "forearm_hand_near",
+    "head",
+    "eyes",
+    "mouth",
+    "mouth_bubbles",
+    "hand_far",
+    "hand_near"
+  ],
+  "outline": {
+    "rgb": "#101E34",
+    "source_stroke_width": 12,
+    "type": "hard dark silhouette underlay; recolor only for legacy four actions; no light rim"
+  },
+  "skins": {
+    "a": {
+      "name": "白褂潜行",
+      "design_reference": "../design/option_a.png",
+      "palette": {
+        "ink": "#1D2938",
+        "rim": "#101E34",
+        "white": "#F4F7F2",
+        "w1": "#CDDDE2",
+        "w2": "#8EA9B7",
+        "skin": "#F5C394",
+        "s1": "#DFA072",
+        "s2": "#B96F50",
+        "hair": "#795038",
+        "h1": "#54392D",
+        "h2": "#322C2A",
+        "blue": "#2670B5",
+        "b1": "#175383",
+        "b2": "#113958",
+        "lens": "#BDE6E8",
+        "navy": "#183B61",
+        "n1": "#122C49",
+        "n2": "#0C1C32",
+        "ochre": "#D6AD63"
+      },
+      "slots": {
+        "head": "common/head.svg",
+        "eyes": "common/eyes_neutral.svg",
+        "mouth": "common/mouth_neutral.svg",
+        "neck": "common/neck.svg",
+        "torso": "skins/a/torso.svg",
+        "cloth_waist_near": "skins/a/cloth_waist_near.svg",
+        "cloth_waist_far": "skins/a/cloth_waist_far.svg",
+        "cloth_collar": null,
+        "upper_arm_near": "skins/a/upper_arm_near.svg",
+        "forearm_hand_near": "skins/a/forearm_hand_near.svg",
+        "upper_arm_far": "skins/a/upper_arm_far.svg",
+        "forearm_hand_far": "skins/a/forearm_hand_far.svg",
+        "thigh_near": "skins/a/thigh_near.svg",
+        "shin_foot_near": "skins/a/shin_foot_near.svg",
+        "thigh_far": "skins/a/thigh_far.svg",
+        "shin_foot_far": "skins/a/shin_foot_far.svg",
+        "foot_near": "skins/a/foot_near.svg",
+        "foot_far": "skins/a/foot_far.svg",
+        "hand_near": "skins/a/hand_near.svg",
+        "hand_far": "skins/a/hand_far.svg",
+        "mouth_bubbles": null
+      },
+      "animation_overrides": {
+        "dash": {
+          "cloth_waist_near": "skins/a/dash_cloth_waist_near.svg",
+          "cloth_waist_far": "skins/a/dash_cloth_waist_far.svg"
+        }
+      }
+    },
+    "b": {
+      "name": "珊瑚救援",
+      "design_reference": "../design/option_b.png",
+      "palette": {
+        "ink": "#1D2938",
+        "rim": "#101E34",
+        "white": "#F4F7F2",
+        "w1": "#CDDDE2",
+        "w2": "#8EA9B7",
+        "skin": "#F5C394",
+        "s1": "#DFA072",
+        "s2": "#B96F50",
+        "hair": "#795038",
+        "h1": "#54392D",
+        "h2": "#322C2A",
+        "blue": "#2670B5",
+        "b1": "#175383",
+        "b2": "#113958",
+        "lens": "#BDE6E8",
+        "coral": "#EF7857",
+        "c1": "#C84F3E",
+        "c2": "#8E3431",
+        "navy": "#183B61",
+        "ochre": "#D6AD63"
+      },
+      "slots": {
+        "head": "common/head.svg",
+        "eyes": "common/eyes_neutral.svg",
+        "mouth": "common/mouth_neutral.svg",
+        "neck": "common/neck.svg",
+        "torso": "skins/b/torso.svg",
+        "cloth_waist_near": null,
+        "cloth_waist_far": "skins/b/cloth_waist_far.svg",
+        "cloth_collar": null,
+        "upper_arm_near": "skins/b/upper_arm_near.svg",
+        "forearm_hand_near": "skins/b/forearm_hand_near.svg",
+        "upper_arm_far": "skins/b/upper_arm_far.svg",
+        "forearm_hand_far": "skins/b/forearm_hand_far.svg",
+        "thigh_near": "skins/b/thigh_near.svg",
+        "shin_foot_near": "skins/b/shin_foot_near.svg",
+        "thigh_far": "skins/b/thigh_far.svg",
+        "shin_foot_far": "skins/b/shin_foot_far.svg",
+        "foot_near": "skins/b/foot_near.svg",
+        "foot_far": "skins/b/foot_far.svg",
+        "hand_near": "skins/b/hand_near.svg",
+        "hand_far": "skins/b/hand_far.svg",
+        "mouth_bubbles": null
+      },
+      "animation_overrides": {
+        "dash": {
+          "cloth_waist_far": "skins/b/dash_cloth_waist_far.svg"
+        }
+      }
+    },
+    "c": {
+      "name": "薄荷深潜",
+      "design_reference": "../design/option_c.png",
+      "palette": {
+        "ink": "#1D2938",
+        "rim": "#101E34",
+        "white": "#F4F7F2",
+        "w1": "#CDDDE2",
+        "w2": "#8EA9B7",
+        "skin": "#F5C394",
+        "s1": "#DFA072",
+        "s2": "#B96F50",
+        "hair": "#795038",
+        "h1": "#54392D",
+        "h2": "#322C2A",
+        "blue": "#2670B5",
+        "b1": "#175383",
+        "b2": "#113958",
+        "lens": "#BDE6E8",
+        "mint": "#A8DED0",
+        "m1": "#6FB9AC",
+        "m2": "#397E7C",
+        "navy": "#183B61"
+      },
+      "slots": {
+        "head": "common/head.svg",
+        "eyes": "common/eyes_neutral.svg",
+        "mouth": "common/mouth_neutral.svg",
+        "neck": "common/neck.svg",
+        "torso": "skins/c/torso.svg",
+        "cloth_waist_near": null,
+        "cloth_waist_far": null,
+        "cloth_collar": "skins/c/cloth_collar.svg",
+        "upper_arm_near": "skins/c/upper_arm_near.svg",
+        "forearm_hand_near": "skins/c/forearm_hand_near.svg",
+        "upper_arm_far": "skins/c/upper_arm_far.svg",
+        "forearm_hand_far": "skins/c/forearm_hand_far.svg",
+        "thigh_near": "skins/c/thigh_near.svg",
+        "shin_foot_near": "skins/c/shin_foot_near.svg",
+        "thigh_far": "skins/c/thigh_far.svg",
+        "shin_foot_far": "skins/c/shin_foot_far.svg",
+        "foot_near": "skins/c/foot_near.svg",
+        "foot_far": "skins/c/foot_far.svg",
+        "hand_near": "skins/c/hand_near.svg",
+        "hand_far": "skins/c/hand_far.svg",
+        "mouth_bubbles": null
+      },
+      "animation_overrides": {
+        "dash": {
+          "cloth_collar": "skins/c/dash_cloth_collar.svg"
+        }
+      }
+    }
+  },
+  "animations": {
+    "swim": "animations/swim.json",
+    "dash_in": "animations/dash_in.json",
+    "dash": "animations/dash.json",
+    "dash_out": "animations/dash_out.json",
+    "gulp": "animations/gulp.json",
+    "hit": "animations/hit.json",
+    "lowair": "animations/lowair.json",
+    "out": "animations/out.json",
+    "turn": "animations/turn.json"
+  },
+  "action_draw_orders": {
+    "swim": [
+      "cloth_waist_near",
+      "cloth_waist_far",
+      "cloth_collar",
+      "upper_arm_far",
+      "forearm_hand_far",
+      "thigh_far",
+      "shin_foot_far",
+      "foot_far",
+      "thigh_near",
+      "shin_foot_near",
+      "foot_near",
+      "neck",
+      "torso",
+      "upper_arm_near",
+      "forearm_hand_near",
+      "head",
+      "eyes",
+      "mouth",
+      "mouth_bubbles",
+      "hand_far",
+      "hand_near"
+    ],
+    "dash": [
+      "cloth_waist_near",
+      "cloth_waist_far",
+      "cloth_collar",
+      "upper_arm_far",
+      "forearm_hand_far",
+      "thigh_far",
+      "shin_foot_far",
+      "foot_far",
+      "thigh_near",
+      "shin_foot_near",
+      "foot_near",
+      "neck",
+      "torso",
+      "upper_arm_near",
+      "forearm_hand_near",
+      "head",
+      "eyes",
+      "mouth",
+      "mouth_bubbles",
+      "hand_far",
+      "hand_near"
+    ],
+    "dash_in": [
+      "cloth_waist_near",
+      "cloth_waist_far",
+      "cloth_collar",
+      "upper_arm_far",
+      "forearm_hand_far",
+      "thigh_far",
+      "shin_foot_far",
+      "foot_far",
+      "thigh_near",
+      "shin_foot_near",
+      "foot_near",
+      "neck",
+      "torso",
+      "upper_arm_near",
+      "forearm_hand_near",
+      "head",
+      "eyes",
+      "mouth",
+      "mouth_bubbles",
+      "hand_far",
+      "hand_near"
+    ],
+    "dash_out": [
+      "cloth_waist_near",
+      "cloth_waist_far",
+      "cloth_collar",
+      "upper_arm_far",
+      "forearm_hand_far",
+      "thigh_far",
+      "shin_foot_far",
+      "foot_far",
+      "thigh_near",
+      "shin_foot_near",
+      "foot_near",
+      "neck",
+      "torso",
+      "upper_arm_near",
+      "forearm_hand_near",
+      "head",
+      "eyes",
+      "mouth",
+      "mouth_bubbles",
+      "hand_far",
+      "hand_near"
+    ]
+  },
+  "motion_policy": {
+    "root": "fixed",
+    "torso": "fixed chest at128,128; no global tilt, translation, squash",
+    "local_motion": "neck -> head chain; shoulder offsets <=3px; pelvis rotation <=2deg; hip/knee/ankle links",
+    "constant_arm_lengths_within_revision": true,
+    "arm_bind_projection_revision": 2.2,
+    "dash_projection": "Head/costume/hand shape and limb width unchanged. Fixed arm centerline projection calibrated once for overhead reach, shared by all skins and both actions. No per-frame stretch.",
+    "dash_hold": "Head, neck, shoulders, arms, hands, pelvis and thighs are fixed. Only ankles/shins and garment ends move."
+  },
+  "landmarks": {
+    "chest": {
+      "bone": "torso",
+      "point": [
+        128,
+        128
+      ]
+    },
+    "head_center": {
+      "bone": "head",
+      "point": [
+        128,
+        66
+      ]
+    },
+    "neck_head_join": {
+      "bone": "head",
+      "point": [
+        128,
+        104
+      ]
+    },
+    "wrist_near": {
+      "bone": "hand_near",
+      "point": [
+        43.199999999999996,
+        81.39999999999999
+      ]
+    },
+    "wrist_far": {
+      "bone": "hand_far",
+      "point": [
+        234.8,
+        116.6
+      ]
+    },
+    "ankle_near": {
+      "bone": "foot_near",
+      "point": [
+        111,
+        205
+      ]
+    },
+    "ankle_far": {
+      "bone": "foot_far",
+      "point": [
+        153,
+        202
+      ]
+    }
+  },
+  "transition_policy": {
+    "entry_swim_phase": 0,
+    "entry_dash_phase": 0,
+    "exit_dash_phase": 0,
+    "exit_swim_phase": 0,
+    "sampling": "3 samples at u=0,1/3,2/3; hidden u=1 equals the next clip first frame",
+    "arbitrary_swim_phase": "Not solved by fixed PNGs. Runtime pose blending or phase gating is required; no engine changes in this delivery."
+  },
+  "fixed_actual_scale": 0.25779258710765557,
+  "expressions": {
+    "strained_eye": {
+      "slot": "eyes",
+      "path": "common/expressions/strained_eye.svg",
+      "sha256": "ce3d02007b875b1666ef74fb948bd360e6eb558224aec985c5a6234522b186c6",
+      "rgb": [
+        "#1D2938",
+        "#DFA072",
+        "#F5C394"
+      ]
+    },
+    "closed_eye": {
+      "slot": "eyes",
+      "path": "common/expressions/closed_eye.svg",
+      "sha256": "0df9536c9737b371dabe54f7a443b3798173abfcb25abd0d75786affdbe1ca8f",
+      "rgb": [
+        "#1D2938",
+        "#DFA072",
+        "#F5C394"
+      ]
+    },
+    "cross_eye": {
+      "slot": "eyes",
+      "path": "common/expressions/cross_eye.svg",
+      "sha256": "48b5b80fab3656f16242d94e3f2fecdfdb8c2fd9294337afad4d607671d52ed8",
+      "rgb": [
+        "#1D2938",
+        "#DFA072",
+        "#F5C394"
+      ]
+    },
+    "surprised_eye": {
+      "slot": "eyes",
+      "path": "common/expressions/surprised_eye.svg",
+      "sha256": "05935fc683dd9fec342db5b47d90b837cc8198dfdd296ee98c53fb7dba646f7e",
+      "rgb": [
+        "#175383",
+        "#1D2938",
+        "#DFA072",
+        "#F4F7F2",
+        "#F5C394"
+      ]
+    },
+    "happy_eye": {
+      "slot": "eyes",
+      "path": "common/expressions/happy_eye.svg",
+      "sha256": "07ff495ff6222074f352d85bd329a46f2f6375501b02d557959b27fa5a6bf482",
+      "rgb": [
+        "#1D2938",
+        "#DFA072",
+        "#F5C394"
+      ]
+    },
+    "gulp_open": {
+      "slot": "mouth",
+      "path": "common/expressions/gulp_open.svg",
+      "sha256": "da85cb4d39babb4cdfe0f3c76b9f8f4d065676e56fa2d692fda2b2e800916004",
+      "rgb": [
+        "#1D2938",
+        "#B96F50"
+      ]
+    },
+    "cheeks_puffed_mouth": {
+      "slot": "mouth",
+      "path": "common/expressions/cheeks_puffed_mouth.svg",
+      "sha256": "e7b570c0c831516b95cf4b0d0fe64a33f446553465ad6d2e0fd22cb32bce7506",
+      "rgb": [
+        "#1D2938",
+        "#DFA072",
+        "#F5C394"
+      ]
+    },
+    "gasp_mouth": {
+      "slot": "mouth",
+      "path": "common/expressions/gasp_mouth.svg",
+      "sha256": "de9802bd5021313a07522deb39e1a6b0c80cae00d01af7e82a952a1fc821ea00",
+      "rgb": [
+        "#1D2938",
+        "#B96F50"
+      ]
+    },
+    "happy_mouth": {
+      "slot": "mouth",
+      "path": "common/expressions/happy_mouth.svg",
+      "sha256": "068c0d245091eccae7e3fd80255755d6a51d9eb49c1ec39790d134a7e1ced76e",
+      "rgb": [
+        "#1D2938",
+        "#B96F50",
+        "#F4F7F2"
+      ]
+    },
+    "bubbles_small_1": {
+      "slot": "mouth_bubbles",
+      "path": "common/expressions/bubbles_small_1.svg",
+      "sha256": "f8473d63861db35ba429fc379adfc29d2b2a56459f960bea2922ae125bf509b8",
+      "rgb": [
+        "#1D2938",
+        "#BDE6E8",
+        "#F4F7F2"
+      ]
+    },
+    "bubbles_small_2": {
+      "slot": "mouth_bubbles",
+      "path": "common/expressions/bubbles_small_2.svg",
+      "sha256": "d90bfb5e0bd14e15c7fa44a62a9b51723c93f2aeb289f8bf1b1afdd04283d5e4",
+      "rgb": [
+        "#1D2938",
+        "#BDE6E8",
+        "#F4F7F2"
+      ]
+    },
+    "bubbles_small_3": {
+      "slot": "mouth_bubbles",
+      "path": "common/expressions/bubbles_small_3.svg",
+      "sha256": "7284ddb1e7106ffc00fbe73469f4583b1a6f468c0a650b617a53c9b25d73899e",
+      "rgb": [
+        "#1D2938",
+        "#BDE6E8",
+        "#F4F7F2"
+      ]
+    }
+  },
+  "front_views": {
+    "streamline": {
+      "generator": "NABO original front variant; generated by tools/build_front_assets.py",
+      "pose": "streamline",
+      "coordinate_space": "absolute256x256; chest128,128; vertical head-at-top binding",
+      "front_pivots": {
+        "root": [
+          128,
+          128
+        ],
+        "torso": [
+          128,
+          128
+        ],
+        "neck": [
+          128,
+          110
+        ],
+        "head": [
+          128,
+          104
+        ],
+        "eyes": [
+          128,
+          80
+        ],
+        "mouth": [
+          128,
+          99
+        ],
+        "shoulder_near": [
+          107,
+          121
+        ],
+        "shoulder_far": [
+          149,
+          121
+        ],
+        "upper_arm_near": [
+          107,
+          121
+        ],
+        "upper_arm_far": [
+          149,
+          121
+        ],
+        "forearm_hand_near": [
+          68,
+          68
+        ],
+        "forearm_hand_far": [
+          188,
+          68
+        ],
+        "hand_near": [
+          109,
+          22
+        ],
+        "hand_far": [
+          147,
+          22
+        ],
+        "pelvis": [
+          128,
+          159
+        ],
+        "thigh_near": [
+          120,
+          164
+        ],
+        "thigh_far": [
+          136,
+          164
+        ],
+        "shin_foot_near": [
+          120,
+          187
+        ],
+        "shin_foot_far": [
+          136,
+          187
+        ],
+        "foot_near": [
+          121,
+          205
+        ],
+        "foot_far": [
+          135,
+          205
+        ],
+        "cloth_waist_near": [
+          110,
+          154
+        ],
+        "cloth_waist_far": [
+          146,
+          154
+        ],
+        "cloth_collar": [
+          128,
+          116
+        ],
+        "mouth_bubbles": [
+          128,
+          99
+        ]
+      },
+      "draw_order": [
+        "cloth_waist_near",
+        "cloth_waist_far",
+        "cloth_collar",
+        "upper_arm_far",
+        "forearm_hand_far",
+        "thigh_far",
+        "shin_foot_far",
+        "foot_far",
+        "thigh_near",
+        "shin_foot_near",
+        "foot_near",
+        "neck",
+        "torso",
+        "upper_arm_near",
+        "forearm_hand_near",
+        "head",
+        "eyes",
+        "mouth",
+        "hand_far",
+        "hand_near"
+      ],
+      "skins": {
+        "a": {
+          "slots": {
+            "head": "common/front/head.svg",
+            "eyes": "common/front/eyes_neutral.svg",
+            "mouth": "common/front/mouth_neutral.svg",
+            "neck": "common/front/neck.svg",
+            "torso": "skins/a/front/torso.svg",
+            "upper_arm_near": "skins/a/front/upper_arm_near.svg",
+            "upper_arm_far": "skins/a/front/upper_arm_far.svg",
+            "forearm_hand_near": "skins/a/front/forearm_hand_near.svg",
+            "forearm_hand_far": "skins/a/front/forearm_hand_far.svg",
+            "hand_near": "skins/a/front/hand_near.svg",
+            "hand_far": "skins/a/front/hand_far.svg",
+            "thigh_near": "skins/a/front/thigh_near.svg",
+            "thigh_far": "skins/a/front/thigh_far.svg",
+            "shin_foot_near": "skins/a/front/shin_foot_near.svg",
+            "shin_foot_far": "skins/a/front/shin_foot_far.svg",
+            "foot_near": "skins/a/front/foot_near.svg",
+            "foot_far": "skins/a/front/foot_far.svg",
+            "cloth_waist_near": "skins/a/front/cloth_waist_near.svg",
+            "cloth_waist_far": "skins/a/front/cloth_waist_far.svg",
+            "cloth_collar": null
+          }
+        },
+        "b": {
+          "slots": {
+            "head": "common/front/head.svg",
+            "eyes": "common/front/eyes_neutral.svg",
+            "mouth": "common/front/mouth_neutral.svg",
+            "neck": "common/front/neck.svg",
+            "torso": "skins/b/front/torso.svg",
+            "upper_arm_near": "skins/b/front/upper_arm_near.svg",
+            "upper_arm_far": "skins/b/front/upper_arm_far.svg",
+            "forearm_hand_near": "skins/b/front/forearm_hand_near.svg",
+            "forearm_hand_far": "skins/b/front/forearm_hand_far.svg",
+            "hand_near": "skins/b/front/hand_near.svg",
+            "hand_far": "skins/b/front/hand_far.svg",
+            "thigh_near": "skins/b/front/thigh_near.svg",
+            "thigh_far": "skins/b/front/thigh_far.svg",
+            "shin_foot_near": "skins/b/front/shin_foot_near.svg",
+            "shin_foot_far": "skins/b/front/shin_foot_far.svg",
+            "foot_near": "skins/b/front/foot_near.svg",
+            "foot_far": "skins/b/front/foot_far.svg",
+            "cloth_waist_near": null,
+            "cloth_waist_far": "skins/b/front/cloth_waist_far.svg",
+            "cloth_collar": null
+          }
+        },
+        "c": {
+          "slots": {
+            "head": "common/front/head.svg",
+            "eyes": "common/front/eyes_neutral.svg",
+            "mouth": "common/front/mouth_neutral.svg",
+            "neck": "common/front/neck.svg",
+            "torso": "skins/c/front/torso.svg",
+            "upper_arm_near": "skins/c/front/upper_arm_near.svg",
+            "upper_arm_far": "skins/c/front/upper_arm_far.svg",
+            "forearm_hand_near": "skins/c/front/forearm_hand_near.svg",
+            "forearm_hand_far": "skins/c/front/forearm_hand_far.svg",
+            "hand_near": "skins/c/front/hand_near.svg",
+            "hand_far": "skins/c/front/hand_far.svg",
+            "thigh_near": "skins/c/front/thigh_near.svg",
+            "thigh_far": "skins/c/front/thigh_far.svg",
+            "shin_foot_near": "skins/c/front/shin_foot_near.svg",
+            "shin_foot_far": "skins/c/front/shin_foot_far.svg",
+            "foot_near": "skins/c/front/foot_near.svg",
+            "foot_far": "skins/c/front/foot_far.svg",
+            "cloth_waist_near": null,
+            "cloth_waist_far": null,
+            "cloth_collar": "skins/c/front/cloth_collar.svg"
+          }
+        }
+      },
+      "expressions": {
+        "eyes_closed": "common/front/eyes_closed.svg"
+      },
+      "render_contract": "Use all-zero local pose for exact symmetric endpoint; apply one global axis transform only. Front pivots are recommended only for articulated frontal poses. All legacy names and parents are preserved.",
+      "projection_note": "Front projection keeps original costume/color identity. The single rear ribbon/collar is foreshortened onto the center plane. No white underlay, glow or light edge."
+    },
+    "relaxed": {
+      "generator": "NABO original front variant; generated by tools/build_front_assets.py",
+      "pose": "relaxed",
+      "coordinate_space": "absolute256x256; chest128,128; vertical head-at-top binding",
+      "front_pivots": {
+        "root": [
+          128,
+          128
+        ],
+        "torso": [
+          128,
+          128
+        ],
+        "neck": [
+          128,
+          110
+        ],
+        "head": [
+          128,
+          104
+        ],
+        "eyes": [
+          128,
+          80
+        ],
+        "mouth": [
+          128,
+          99
+        ],
+        "shoulder_near": [
+          107,
+          121
+        ],
+        "shoulder_far": [
+          149,
+          121
+        ],
+        "upper_arm_near": [
+          107,
+          121
+        ],
+        "upper_arm_far": [
+          149,
+          121
+        ],
+        "forearm_hand_near": [
+          91,
+          148
+        ],
+        "forearm_hand_far": [
+          165,
+          148
+        ],
+        "hand_near": [
+          87,
+          174
+        ],
+        "hand_far": [
+          169,
+          174
+        ],
+        "pelvis": [
+          128,
+          159
+        ],
+        "thigh_near": [
+          118,
+          164
+        ],
+        "thigh_far": [
+          138,
+          164
+        ],
+        "shin_foot_near": [
+          115,
+          187
+        ],
+        "shin_foot_far": [
+          141,
+          187
+        ],
+        "foot_near": [
+          114,
+          208
+        ],
+        "foot_far": [
+          142,
+          208
+        ],
+        "cloth_waist_near": [
+          110,
+          154
+        ],
+        "cloth_waist_far": [
+          146,
+          154
+        ],
+        "cloth_collar": [
+          128,
+          116
+        ],
+        "mouth_bubbles": [
+          128,
+          99
+        ]
+      },
+      "draw_order": [
+        "cloth_waist_near",
+        "cloth_waist_far",
+        "cloth_collar",
+        "upper_arm_far",
+        "forearm_hand_far",
+        "thigh_far",
+        "shin_foot_far",
+        "foot_far",
+        "thigh_near",
+        "shin_foot_near",
+        "foot_near",
+        "neck",
+        "torso",
+        "upper_arm_near",
+        "forearm_hand_near",
+        "head",
+        "eyes",
+        "mouth",
+        "hand_far",
+        "hand_near"
+      ],
+      "skins": {
+        "a": {
+          "slots": {
+            "head": "common/front/head.svg",
+            "eyes": "common/front/eyes_neutral.svg",
+            "mouth": "common/front/mouth_neutral.svg",
+            "neck": "common/front/neck.svg",
+            "torso": "skins/a/front/relaxed/torso.svg",
+            "upper_arm_near": "skins/a/front/relaxed/upper_arm_near.svg",
+            "upper_arm_far": "skins/a/front/relaxed/upper_arm_far.svg",
+            "forearm_hand_near": "skins/a/front/relaxed/forearm_hand_near.svg",
+            "forearm_hand_far": "skins/a/front/relaxed/forearm_hand_far.svg",
+            "hand_near": "skins/a/front/relaxed/hand_near.svg",
+            "hand_far": "skins/a/front/relaxed/hand_far.svg",
+            "thigh_near": "skins/a/front/relaxed/thigh_near.svg",
+            "thigh_far": "skins/a/front/relaxed/thigh_far.svg",
+            "shin_foot_near": "skins/a/front/relaxed/shin_foot_near.svg",
+            "shin_foot_far": "skins/a/front/relaxed/shin_foot_far.svg",
+            "foot_near": "skins/a/front/relaxed/foot_near.svg",
+            "foot_far": "skins/a/front/relaxed/foot_far.svg",
+            "cloth_waist_near": "skins/a/front/relaxed/cloth_waist_near.svg",
+            "cloth_waist_far": "skins/a/front/relaxed/cloth_waist_far.svg",
+            "cloth_collar": null
+          }
+        },
+        "b": {
+          "slots": {
+            "head": "common/front/head.svg",
+            "eyes": "common/front/eyes_neutral.svg",
+            "mouth": "common/front/mouth_neutral.svg",
+            "neck": "common/front/neck.svg",
+            "torso": "skins/b/front/relaxed/torso.svg",
+            "upper_arm_near": "skins/b/front/relaxed/upper_arm_near.svg",
+            "upper_arm_far": "skins/b/front/relaxed/upper_arm_far.svg",
+            "forearm_hand_near": "skins/b/front/relaxed/forearm_hand_near.svg",
+            "forearm_hand_far": "skins/b/front/relaxed/forearm_hand_far.svg",
+            "hand_near": "skins/b/front/relaxed/hand_near.svg",
+            "hand_far": "skins/b/front/relaxed/hand_far.svg",
+            "thigh_near": "skins/b/front/relaxed/thigh_near.svg",
+            "thigh_far": "skins/b/front/relaxed/thigh_far.svg",
+            "shin_foot_near": "skins/b/front/relaxed/shin_foot_near.svg",
+            "shin_foot_far": "skins/b/front/relaxed/shin_foot_far.svg",
+            "foot_near": "skins/b/front/relaxed/foot_near.svg",
+            "foot_far": "skins/b/front/relaxed/foot_far.svg",
+            "cloth_waist_near": null,
+            "cloth_waist_far": "skins/b/front/relaxed/cloth_waist_far.svg",
+            "cloth_collar": null
+          }
+        },
+        "c": {
+          "slots": {
+            "head": "common/front/head.svg",
+            "eyes": "common/front/eyes_neutral.svg",
+            "mouth": "common/front/mouth_neutral.svg",
+            "neck": "common/front/neck.svg",
+            "torso": "skins/c/front/relaxed/torso.svg",
+            "upper_arm_near": "skins/c/front/relaxed/upper_arm_near.svg",
+            "upper_arm_far": "skins/c/front/relaxed/upper_arm_far.svg",
+            "forearm_hand_near": "skins/c/front/relaxed/forearm_hand_near.svg",
+            "forearm_hand_far": "skins/c/front/relaxed/forearm_hand_far.svg",
+            "hand_near": "skins/c/front/relaxed/hand_near.svg",
+            "hand_far": "skins/c/front/relaxed/hand_far.svg",
+            "thigh_near": "skins/c/front/relaxed/thigh_near.svg",
+            "thigh_far": "skins/c/front/relaxed/thigh_far.svg",
+            "shin_foot_near": "skins/c/front/relaxed/shin_foot_near.svg",
+            "shin_foot_far": "skins/c/front/relaxed/shin_foot_far.svg",
+            "foot_near": "skins/c/front/relaxed/foot_near.svg",
+            "foot_far": "skins/c/front/relaxed/foot_far.svg",
+            "cloth_waist_near": null,
+            "cloth_waist_far": null,
+            "cloth_collar": "skins/c/front/relaxed/cloth_collar.svg"
+          }
+        }
+      },
+      "expressions": {
+        "eyes_closed": "common/front/eyes_closed.svg"
+      },
+      "render_contract": "Use all-zero local pose for exact symmetric endpoint; apply one global axis transform only. Front pivots are recommended only for articulated frontal poses. All legacy names and parents are preserved.",
+      "projection_note": "Front projection keeps original costume/color identity. The single rear ribbon/collar is foreshortened onto the center plane. No white underlay, glow or light edge."
+    }
+  },
+  "round3_contract": {
+    "legacy_change": "outline RGB only; source timelines and original24 bone definitions preserved",
+    "fps": {
+      "gulp": 12,
+      "hit": 12,
+      "lowair": 16,
+      "out": 12,
+      "turn": 24
+    },
+    "user_acceptance": "pending for all animation versions",
+    "optional_not_made": [
+      "nearmiss",
+      "record"
+    ],
+    "projection": "Front yaw / supine body performance uses authored SVG view variants with projected joint coordinates, not an engine tilt/squash effect."
+  }
+}
