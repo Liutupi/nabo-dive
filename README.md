@@ -2,7 +2,7 @@
 
 NABO 的单键下潜游戏：按一下换方向，在岩壁、水母和鮟鱇之间“之”字下潜；氧气一直在减少，越深越快，吃上浮的气泡补氧，擦边躲过有奖励，氧气归零后还有 1.5 秒“最后一口气”。从阳光层一路潜到海沟，越深越暗。
 
-为 FoloToy AI Passport 工牌（ESP32-C3，240×320）设计。固件在 [ai-passport-nabo-xiaozhi-dive](https://github.com/Liutupi/ai-passport-nabo-xiaozhi-dive)，本仓库放游戏的美术、Codex 美术流程和网页原型。
+为 FoloToy AI Passport 工牌（ESP32-C3，240×320）设计。本仓库放游戏的美术、Codex 美术流程、网页原型，以及只含深潜的独立版固件（`firmware/`，发布在 AI Passport 玩法社区）。带小智语音的完整版固件在 [ai-passport-nabo-xiaozhi-dive](https://github.com/Liutupi/ai-passport-nabo-xiaozhi-dive)。
 
 ![深潜：标题、阳光层、俯冲破纪录、结束页](docs/lcd-dive.png)
 
@@ -30,7 +30,11 @@ NABO 的单键下潜游戏：按一下换方向，在岩壁、水母和鮟鱇之
 python3 prototype/build_atlas.py
 ```
 
-## 进入固件
+## 独立版固件
+
+`firmware/` 是只含深潜的完整固件，不需要配网。构建和刷写方法见 [firmware/README.md](firmware/README.md)。
+
+## 进入小智版固件
 
 把本仓库克隆到固件仓库旁边，在固件仓库里运行：
 

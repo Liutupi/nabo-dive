@@ -1,0 +1,2 @@
+#pragma once
+typedef enum { MUSE_MENU_DOWN, MUSE_MENU_SELECT, MUSE_MENU_UP, MUSE_MENU_LEFT, MUSE_MENU_RIGHT, MUSE_MENU_BACK } muse_menu_key_t;
